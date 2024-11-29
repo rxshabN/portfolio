@@ -26,15 +26,13 @@
     "react-intersection-observer": "^9.13.1",
     "react-responsive": "^10.0.0",
     "react-vertical-timeline-component": "^3.6.0",
-    "resend": "^4.0.1",
-    "shimmer": "^1.2.1"
+    "resend": "^4.0.1"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/react-vertical-timeline-component": "^3.3.6",
-    "@types/shimmer": "^1.2.0",
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
     "postcss": "^8",
