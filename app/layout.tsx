@@ -2,7 +2,6 @@ import "./globals.css";
 import Header from "@/components/header";
 import ActiveSectionContextProvider from "@/context/active-section-context";
 import { Toaster } from "react-hot-toast";
-import Head from "next/head";
 
 export const metadata = {
   title: "Rishab Nagwani | Portfolio",
@@ -25,6 +24,19 @@ export const metadata = {
     description: "Full-stack Developer Portfolio.",
     image: "/logo.jpg",
   },
+  other: {
+    "application/ld+json": JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Rishab Nagwani",
+      url: "https://www.rishabnagwni.tech",
+      sameAs: [
+        "http://www.linkedin.com/in/rishab-nagwani-53a37628a",
+        "https://github.com/rxshabN",
+        "https://www.instagram.com/ri_shab.n/profilecard/?igsh=MTd2ZmRlczlwZHlzMg==",
+      ],
+    }),
+  },
 };
 
 export default function RootLayout({
@@ -34,25 +46,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="!scroll-smooth">
-      <Head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Person",
-              name: "Rishab Nagwani",
-              url: "https://www.rishabnagwni.tech",
-              sameAs: [
-                "http://www.linkedin.com/in/rishab-nagwani-53a37628a",
-                "https://github.com/rxshabN",
-                "https://www.instagram.com/ri_shab.n/profilecard/?igsh=MTd2ZmRlczlwZHlzMg==",
-              ],
-            }),
-          }}
-        />
+      <head>
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-      </Head>
+      </head>
       <body className="antialiased bg-purple-950 text-white relative sm:pt-28">
         <div className="bg-[#f08a8c]/[0.3] absolute -z-10 top-[-6rem] right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
         <div className="bg-[#8a83f2]/[0.4] absolute top-[-1rem] left-[-35rem] h-[31.25rem] -z-10 w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"></div>
