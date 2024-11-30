@@ -12,6 +12,9 @@ export const metadata = {
   keywords:
     "Rishab, Nagwani, Rishab nagwani, Full Stack Web Developer, Portfolio, React, Next.js, JavaScript, TypeScript, Web Development, MERN Stack, Node.js, Express.js, MongoDB, Tailwind CSS",
   author: "Rishab Nagwani",
+  alternates: {
+    canonical: "https://www.rishabnagwani.tech",
+  },
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
