@@ -16,7 +16,7 @@ export const metadata = {
     canonical: "https://www.rishabnagwani.tech",
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/logo (1).png",
     shortcut: "/favicon.ico",
   },
   openGraph: {
@@ -24,14 +24,27 @@ export const metadata = {
     description:
       "Hi, I am Rishab Nagwani, a Full Stack Web Developer. I build web applications using Next.js and Node.js. Check out my portfolio to see my work.",
     url: "https://www.rishabnagwani.tech",
-    image: "/logo (1).png",
+    images: [
+      {
+        url: "https://rishabnagwani.tech/logo%20(1).png",
+        width: 1200,
+        height: 630,
+        alt: "image of logo",
+      },
+    ],
+    siteName: "Rishab Nagwani | Portfolio",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Rishab Nagwani | Portfolio",
     description: "Full-stack Developer Portfolio.",
-    image: "/logo (1).png",
+    images: [
+      {
+        url: "https://rishabnagwani.tech/logo%20(1).png",
+        alt: "image of logo",
+      },
+    ],
   },
   other: {
     "application/ld+json": JSON.stringify({
