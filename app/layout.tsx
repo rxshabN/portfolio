@@ -10,7 +10,7 @@ export const metadata = {
   description:
     "Hi, I am Rishab Nagwani, a Full Stack Web Developer. I build web applications using Next.js and Node.js. Check out my portfolio to see my work.",
   keywords:
-    "Full Stack Web Developer, Portfolio, React, Next.js, JavaScript, TypeScript, Web Development, MERN Stack, Node.js, Express.js, MongoDB, Tailwind CSS",
+    "Rishab, Nagwani, Rishab nagwani, Full Stack Web Developer, Portfolio, React, Next.js, JavaScript, TypeScript, Web Development, MERN Stack, Node.js, Express.js, MongoDB, Tailwind CSS",
   author: "Rishab Nagwani",
   openGraph: {
     title: "Rishab Nagwani | Portfolio",
