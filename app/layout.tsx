@@ -26,7 +26,7 @@ export const metadata = {
     url: "https://www.rishabnagwani.tech",
     images: [
       {
-        url: "https://rishabnagwani.tech/logo%20(1).png",
+        url: "https://www.rishabnagwani.tech/logo%20(1).png",
         width: 1200,
         height: 630,
         alt: "image of logo",
@@ -41,7 +41,7 @@ export const metadata = {
     description: "Full-stack Developer Portfolio.",
     images: [
       {
-        url: "https://rishabnagwani.tech/logo%20(1).png",
+        url: "https://www.rishabnagwani.tech/logo%20(1).png",
         alt: "image of logo",
       },
     ],
