@@ -31,7 +31,7 @@ export default function About() {
         <h2 className="sm:text-7xl text-5xl font-medium capitalize mb-8">
           About me
         </h2>
-        <div className="sm:grid sm:grid-cols-2 flex flex-col sm:gap-x-20 sm:max-w-[75rem] w-[23rem]">
+        <div className="sm:grid sm:grid-cols-2 flex flex-col sm:gap-x-20 sm:w-[75rem] w-[23rem]">
           <div className="mb-3 text-pretty sm:text-start sm:flex sm:flex-col sm:gap-y-5 sm:text-2xl text-base px-10">
             <div className="sm:space-y-6 space-y-4">
               <div className="flex items-start gap-4">
