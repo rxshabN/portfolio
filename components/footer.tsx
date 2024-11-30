@@ -1,37 +1,45 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="name py-8 text-white text-center cursor-default">
+    <footer className="poppins py-8 text-white text-center cursor-default">
       <div className="mx-auto">
         <p className="text-sm">
           &copy; {new Date().getFullYear()} Rishab Nagwani. All rights reserved.
         </p>
         <div className="mt-2 -mb-5 flex justify-center gap-6 text-sm">
-          <a
+          <Link
             href="http://www.linkedin.com/in/rishab-nagwani-53a37628a"
             target="_blank"
             rel="noopener noreferrer"
+            className="no-underline"
           >
-            <u>LinkedIn</u>
-          </a>
-          <a
+            <span>LinkedIn</span>
+          </Link>
+          <Link
             href="https://github.com/rxshabN"
             target="_blank"
             rel="noopener noreferrer"
+            className="no-underline"
           >
-            <u>GitHub</u>
-          </a>
-          <a href="mailto:nagwanirishab@gmail.com" target="_blank">
-            <u>Email</u>
-          </a>
-          <a
+            <span>GitHub</span>
+          </Link>
+          <Link
+            href="mailto:nagwanirishab@gmail.com"
+            target="_blank"
+            className="no-underline"
+          >
+            <span>Email</span>
+          </Link>
+          <Link
             href="https://www.instagram.com/ri_shab.n/profilecard/?igsh=MTd2ZmRlczlwZHlzMg=="
             target="_blank"
             rel="noopener noreferrer"
+            className="no-underline"
           >
-            <u>Instagram</u>
-          </a>
+            <span>Instagram</span>
+          </Link>
         </div>
       </div>
     </footer>

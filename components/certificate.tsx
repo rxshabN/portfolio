@@ -26,7 +26,7 @@ export default function Certificate() {
       <motion.h2
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        className="sm:text-7xl text-5xl font-medium capitalize mb-12 text-center name cursor-default"
+        className="sm:text-7xl text-5xl font-medium capitalize mb-12 text-center poppins cursor-default"
       >
         Certificates
       </motion.h2>
@@ -65,7 +65,9 @@ export default function Certificate() {
               <div className="flex flex-row justify-between items-center mt-8">
                 <Link
                   href={certificate.link}
-                  className="mt-auto name border border-black/10 cursor-pointer bg-violet-700 px-7
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-auto poppins border border-black/10 cursor-pointer bg-violet-700 px-7
                   py-3 flex items-center gap-4 justify-center rounded-full outline-none active:scale-90
                   transition text-white w-fit"
                 >

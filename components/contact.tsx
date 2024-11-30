@@ -5,6 +5,7 @@ import React from "react";
 import { sendEmail } from "@/actions/sendEmail";
 import Submit from "./submit";
 import toast from "react-hot-toast";
+import Link from "next/link";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact", 0.75);
@@ -16,14 +17,19 @@ export default function Contact() {
     >
       <div className="sm:block hidden bg-[#6f61f3]/[0.3] absolute -z-10 top-[-1rem] left-[-75rem] h-[37rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"></div>
       <div className="sm:block hidden bg-[#e86365]/[0.4] absolute -z-10 top-[-60rem] -right-[0rem] h-[37rem] w-[40rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
-      <h2 className="cursor-default name sm:text-7xl text-5xl font-medium capitalize mb-8 text-center">
+      <h2 className="cursor-default poppins sm:text-7xl text-5xl font-medium capitalize mb-8 text-center">
         Contact me
       </h2>
       <p className="text-white -mt-4 cursor-default">
         Feel free to reach out to me directly at{" "}
-        <a className="underline" href="mailto:nagwanirishab@gmail.com">
+        <Link
+          className="underline"
+          href="mailto:nagwanirishab@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           nagwanirishab@gmail.com
-        </a>{" "}
+        </Link>{" "}
         or by filling out this form.
       </p>
       <form

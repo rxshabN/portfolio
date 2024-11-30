@@ -35,12 +35,11 @@ export default function Skills() {
       <motion.h2
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        className="name sm:text-7xl text-5xl font-medium mb-16 cursor-default flex flex-col gap-y-10"
+        className="poppins sm:text-7xl text-5xl font-medium mb-16 cursor-default flex flex-col gap-y-10"
       >
         My Skills
-        <span className="text-2xl">
-          All the frameworks/libraries I've used before to build my
-          applications.
+        <span className="sm:text-2xl text-xl sm:px-0 px-10 text-center sm:mb-0 -mb-5">
+          Frameworks/libraries I have used to build my applications.
         </span>
       </motion.h2>
       <ul className="flex flex-wrap justify-center gap-6">

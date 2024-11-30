@@ -39,7 +39,7 @@ export default function Intro() {
             <Image
               src="/rishab.jpg"
               alt="image of rishab nagwani"
-              quality="95"
+              quality={100}
               width={300}
               height={300}
               priority={true}
@@ -48,19 +48,22 @@ export default function Intro() {
           </motion.div>
         </div>
         <motion.h1
-          className="mb-10 mt-4 px-4 sm:text-justify text-center text-2xl font-medium !leading-[1.5] sm:text-[2rem]"
+          className="mb-10 mt-4 px-4 text-center sm:text-justify text-2xl font-medium !leading-[1.5] sm:text-[2rem]"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          I'm <span className="font-bold">Rishab Nagwani</span>, a{" "}
-          <span className="font-bold">Full-Stack Web Developer</span> focused on
-          building{" "}
-          <span className="font-bold">real-world web applications.</span> I'm a
-          sophomore at{" "}
-          <span className="font-bold">
-            Vellore Institute of Technology, Tamil Nadu, India.
+          I am <span className="font-bold text-[#f87171]">Rishab Nagwani</span>,
+          a{" "}
+          <span className="font-bold text-sky-400">
+            Full-Stack Web Developer
           </span>{" "}
-          I specialize in <span className="italic">MERN Stack</span>{" "}
+          focused on building{" "}
+          <span className="font-bold text-green-400">
+            real-world web applications.
+          </span>{" "}
+          I am a sophomore at Vellore Institute of Technology, Tamil Nadu,
+          India. I specialize in{" "}
+          <span className="font-bold text-amber-400">MERN Stack</span>{" "}
           development.
         </motion.h1>
       </section>
@@ -71,7 +74,7 @@ export default function Intro() {
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium mb-[23vh] sm:mb-0"
       >
         <a
-          className="name border border-black/10 cursor-pointer bg-gray-900 px-7 py-3 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
+          className="poppins border border-black/10 cursor-pointer bg-gray-900 px-7 py-3 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
           href="/resume.pdf"
           download="RishabN-Resume.pdf"
           onMouseEnter={() => setIsHovered(true)}
@@ -93,7 +96,7 @@ export default function Intro() {
         </a>
         <Link
           href="#contact"
-          className="name group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
+          className="poppins group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
           onMouseEnter={() => setIsHovered1(true)}
           onMouseLeave={() => setIsHovered1(false)}
           onClick={() => {

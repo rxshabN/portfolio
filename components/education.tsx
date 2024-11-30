@@ -19,7 +19,7 @@ export default function Education() {
       <motion.h2
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        className="sm:text-7xl text-5xl font-medium capitalize mb-8 text-center name cursor-default"
+        className="sm:text-7xl text-5xl font-medium capitalize mb-8 text-center poppins cursor-default"
       >
         Educational Background
       </motion.h2>

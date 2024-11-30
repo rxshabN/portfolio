@@ -41,7 +41,7 @@ export const links = [
 export const educationData = [
   {
     title: "SVKM JV Parekh International School",
-    location: "Vile Parle(E), Mumbai, Maharashtra-400056",
+    location: "Vile Parle(W), Mumbai, Maharashtra-400056",
     description: "Grade: 93.4% in IGCSE 10th board examination.",
     icon: React.createElement(FaBook),
     date: "2008-2021",
@@ -67,7 +67,7 @@ export const projectsData = [
   {
     title: "Real-time Chat App",
     description:
-      "A full-featured real-time chat application inspired by Discord. This clone provides messaging, audio, and video chat capabilities using LiveKit, with user authentication handled by Clerk.",
+      "A fully functional real-time chat application inspired by Discord. This project provides messaging, audio, and video chat capabilities using LiveKit, with user authentication powered by Clerk.",
     tags: [
       "Next.js",
       "PostgreSQL",
@@ -92,7 +92,7 @@ export const projectsData = [
   {
     title: "Password Manager",
     description:
-      "A simple yet modern password manager built using React, Tailwind CSS, and MongoDB. This project allows users to store their passwords on a MongoDB cluster for easy access.",
+      "A simple yet modern password manager built using React, Tailwind CSS, and MongoDB. This project allows users to store their passwords on a MongoDB Atlas cluster for easy access from the cloud.",
     tags: ["React", "Vite", "MongoDB", "TailwindCSS", "ExpressJS", "Mongoose"],
     imageUrl: password,
     repolink: "https://github.com/rxshabN/Password-Manager---mongodb",
@@ -101,7 +101,7 @@ export const projectsData = [
   {
     title: "Spotify Clone",
     description:
-      "A clone of Spotify using HTML, CSS and JS. It is fully functional with 20 songs uploaded on the server and hosted on a shared hosting site. Users can seek, skip and play/pause songs. Four artists' songs are available.",
+      "A clone of Spotify using HTML, CSS and JS. It is fully functional with multiple songs uploaded on the server. Users can seek, skip and play/pause songs. Only twenty songs are available on the website due to storage limitations.",
     tags: ["HTML5", "CSS3", "JavaScript", "Music", "Spotify"],
     imageUrl: spotify,
     repolink: "https://github.com/rxshabN/Spotify-Clone",

@@ -26,22 +26,24 @@ export default function Project({
         <div className="flex flex-row justify-between items-center mt-8">
           <Link
             href={repolink}
-            className="mt-auto name border border-black/10 cursor-pointer bg-violet-700 px-7
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-auto poppins border border-black/10 cursor-pointer bg-violet-700 px-7
           py-3 flex items-center gap-4 justify-center rounded-full outline-none active:scale-90
           transition text-white w-fit"
           >
             <span className="hidden sm:block">View Repository</span>
             <BsGithub size={25} />
           </Link>
-          <a href={link}>
+          <Link href={link} target="_blank" rel="noopener noreferrer">
             <span
-              className="sm:hidden mt-auto name border border-black/10 cursor-pointer bg-black px-7
+              className="sm:hidden mt-auto popins border border-black/10 cursor-pointer bg-black px-7
           py-3 flex items-center gap-4 justify-center rounded-full outline-none active:scale-90
           transition text-white w-fit"
             >
               <BsGlobe size={25} />
             </span>
-          </a>
+          </Link>
         </div>
 
         <ul className="hidden lg:flex flex-nowrap justify-center sm:mt-auto sm:ml-[15.6rem] gap-2">
@@ -55,11 +57,11 @@ export default function Project({
           ))}
         </ul>
       </div>
-      <Link href={link}>
+      <Link href={link} target="_blank" rel="noopener noreferrer">
         <Image
           src={imageUrl}
           alt="Project Image"
-          quality={95}
+          quality={100}
           loading="lazy"
           className="sm:block hidden absolute top-8 -right-56 w-[32rem] rounded-t-lg rounded-b-lg shadow-2xl group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 transition group-hover:scale-[1.01]"
         />
