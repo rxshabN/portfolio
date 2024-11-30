@@ -52,7 +52,7 @@ export default function Intro() {
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          I am <span className="font-bold text-[#f87171]">Rishab Nagwani</span>,
+          I am <span className="font-bold text-green-400">Rishab Nagwani</span>,
           a{" "}
           <span className="font-bold text-sky-400">
             Full-Stack Web Developer
@@ -63,7 +63,7 @@ export default function Intro() {
           </span>{" "}
           I am a sophomore at Vellore Institute of Technology, Tamil Nadu,
           India. I specialize in{" "}
-          <span className="font-bold text-amber-400">MERN Stack</span>{" "}
+          <span className="font-bold text-sky-400">MERN Stack</span>{" "}
           development.
         </motion.h1>
       </section>
