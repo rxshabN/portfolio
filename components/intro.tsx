@@ -54,7 +54,7 @@ export default function Intro() {
         >
           I am <span className="font-bold text-green-400">Rishab Nagwani</span>,
           a{" "}
-          <span className="font-bold text-sky-400">
+          <span className="font-bold text-orange-400">
             Full-Stack Web Developer
           </span>{" "}
           focused on building{" "}
@@ -63,7 +63,7 @@ export default function Intro() {
           </span>{" "}
           I am a sophomore at Vellore Institute of Technology, Tamil Nadu,
           India. I specialize in{" "}
-          <span className="font-bold text-sky-400">MERN Stack</span>{" "}
+          <span className="font-bold text-orange-400">MERN Stack</span>{" "}
           development.
         </motion.h1>
       </section>
