@@ -3,7 +3,7 @@
 import { useSectionInView } from "@/lib/hooks";
 import { motion, useInView } from "framer-motion";
 import Image from "next/image";
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { skillsImages } from "@/lib/data";
 
 const fadeInAnimationVariants = {
