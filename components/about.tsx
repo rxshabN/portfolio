@@ -58,10 +58,10 @@ export default function About() {
                   src="/logo.jpg"
                   alt="image of logo"
                   quality={100}
-                  width={600}
-                  height={300}
+                  width={450}
+                  height={250}
                   priority={true}
-                  className="sm:h-[300px] sm:w-[600px] h-40 w-80 rounded-3xl object-cover shadow-xl"
+                  className="sm:h-[250px] sm:w-[450px] h-40 w-80 rounded-3xl object-cover shadow-xl"
                 />
               </div>
             </div>
