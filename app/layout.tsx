@@ -27,8 +27,6 @@ export const metadata = {
     images: [
       {
         url: "https://www.rishabnagwani.tech/logo%20(1).png",
-        width: 1200,
-        height: 630,
         alt: "image of logo",
       },
     ],
