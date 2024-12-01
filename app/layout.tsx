@@ -16,7 +16,7 @@ export const metadata = {
     canonical: "https://www.rishabnagwani.tech",
   },
   icons: {
-    icon: "/logo (1).png",
+    icon: "/favicon.ico",
     shortcut: "/favicon.ico",
   },
   openGraph: {
@@ -26,7 +26,7 @@ export const metadata = {
     url: "https://www.rishabnagwani.tech",
     images: [
       {
-        url: "https://www.rishabnagwani.tech/logo%20(1).png",
+        url: "https://www.rishabnagwani.tech/logo.jpg",
         alt: "image of logo",
       },
     ],
