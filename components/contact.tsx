@@ -8,7 +8,7 @@ import toast from "react-hot-toast";
 import Link from "next/link";
 
 export default function Contact() {
-  const { ref } = useSectionInView("Contact", 0.75);
+  const { ref } = useSectionInView("Contact", 0.8);
   return (
     <section
       ref={ref}

@@ -13,7 +13,7 @@ import Link from "next/link";
 import { BsArrowUpRight } from "react-icons/bs";
 
 export default function Certificate() {
-  const { ref } = useSectionInView("Certificates", 0.05);
+  const { ref } = useSectionInView("Certificates", 0.6);
 
   return (
     <section

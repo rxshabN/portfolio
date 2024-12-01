@@ -3,13 +3,20 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { links } from "@/lib/data";
-import Link from "next/link";
 import clsx from "clsx";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Header() {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
     useActiveSectionContext();
+
+  const handleScroll = (id: string) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <header className="z-[999] relative hidden lg:block poppins">
       <motion.div
@@ -24,7 +31,12 @@ export default function Header() {
             initial={{ y: -100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
           >
-            <a href="#home">Rishab Nagwani</a>
+            <button
+              onClick={() => handleScroll("home")}
+              className="cursor-pointer focus:outline-none"
+            >
+              Rishab Nagwani
+            </button>
           </motion.div>
           <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.95rem] font-medium text-white sm:w-[initial] sm:flex-nowrap sm:gap-5">
             {links.map((link) => (
@@ -34,15 +46,15 @@ export default function Header() {
                 initial={{ y: -100, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
               >
-                <Link
+                <button
                   className={clsx(
                     "flex items-center justify-center w-full px-3 py-3 hover:bg-blue-700/[0.55] rounded-full transition",
                     {
                       "text-white": activeSection === link.name,
                     }
                   )}
-                  href={link.hash}
                   onClick={() => {
+                    handleScroll(link.hash.replace("#", ""));
                     setActiveSection(link.name);
                     setTimeOfLastClick(Date.now());
                   }}
@@ -59,7 +71,7 @@ export default function Header() {
                       className="bg-blue-700/[0.8] rounded-full absolute inset-0 -z-10 py-2"
                     ></motion.span>
                   )}
-                </Link>
+                </button>
               </motion.li>
             ))}
           </ul>

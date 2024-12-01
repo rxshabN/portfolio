@@ -54,7 +54,7 @@ export default function Intro() {
         >
           I am <span className="font-bold text-green-400">Rishab Nagwani</span>,
           a{" "}
-          <span className="font-bold text-orange-400">
+          <span className="font-bold text-green-400">
             Full-Stack Web Developer
           </span>{" "}
           focused on building{" "}
@@ -63,7 +63,7 @@ export default function Intro() {
           </span>{" "}
           I am a sophomore at Vellore Institute of Technology, Tamil Nadu,
           India. I specialize in{" "}
-          <span className="font-bold text-orange-400">MERN Stack</span>{" "}
+          <span className="font-bold text-green-400">MERN Stack</span>{" "}
           development.
         </motion.h1>
       </section>
@@ -119,30 +119,34 @@ export default function Intro() {
           </motion.div>
         </Link>
         <div className="flex flex-row gap-x-2">
-          <a
+          <Link
             href="http://www.linkedin.com/in/rishab-nagwani-53a37628a"
             className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
           >
             <BsLinkedin />
-          </a>
-          <a
+          </Link>
+          <Link
+            rel="noopener noreferrer"
+            target="_blank"
             href="https://github.com/rxshabN"
             className="bg-white p-4 flex items-center text-gray-700 gap-2 rounded-full outline-none active:scale-90 transition"
           >
             <BsGithub />
-          </a>
-          <a
+          </Link>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
             href="mailto:nagwanirishab@gmail.com"
             className="bg-white p-4 flex items-center text-gray-700 gap-2 rounded-full outline-none active:scale-90 transition"
           >
             <BsEnvelopeFill />
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://www.instagram.com/ri_shab.n/profilecard/?igsh=MTd2ZmRlczlwZHlzMg=="
             className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
           >
             <BsInstagram />
-          </a>
+          </Link>
         </div>
       </motion.div>
     </>

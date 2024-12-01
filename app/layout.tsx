@@ -35,17 +35,6 @@ export const metadata = {
     siteName: "Rishab Nagwani | Portfolio",
     type: "website",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Rishab Nagwani | Portfolio",
-    description: "Full-stack Developer Portfolio.",
-    images: [
-      {
-        url: "https://www.rishabnagwani.tech/logo%20(1).png",
-        alt: "image of logo",
-      },
-    ],
-  },
   other: {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",

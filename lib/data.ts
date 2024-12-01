@@ -42,7 +42,7 @@ export const educationData = [
   {
     title: "SVKM JV Parekh International School",
     location: "Vile Parle(W), Mumbai, Maharashtra-400056",
-    description: "Grade: 93.4% in IGCSE 10th board examination.",
+    description: "Grade: 93.6% in IGCSE 10th board examination.",
     icon: React.createElement(FaBook),
     date: "2008-2021",
   },
