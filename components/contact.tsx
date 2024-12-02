@@ -16,14 +16,14 @@ export default function Contact() {
       className="relative poppins scroll-mt-28 sm:mb-28 mb-20 w-[min(85%,38rem)] text-center"
     >
       <div className="sm:block hidden bg-[#6f61f3]/[0.3] absolute -z-10 top-[-1rem] left-[-75rem] h-[37rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"></div>
-      <div className="sm:block hidden bg-[#e86365]/[0.4] absolute -z-10 top-[-60rem] -right-[0rem] h-[37rem] w-[40rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
-      <h2 className="cursor-default poppins sm:text-7xl text-5xl font-medium capitalize mb-8 text-center">
+      <div className="sm:block hidden bg-[#0e1d2d]/[0.4] absolute -z-10 top-[-60rem] -right-[0rem] h-[37rem] w-[40rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+      <h2 className="cursor-default weight sm:text-7xl text-5xl font-medium capitalize mb-8 text-center">
         Contact me
       </h2>
       <p className="text-white -mt-4 cursor-default">
         Feel free to reach out to me directly at{" "}
         <Link
-          className="underline"
+          className="underline text-green-400"
           href="mailto:nagwanirishab@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
@@ -43,7 +43,7 @@ export default function Contact() {
         }}
       >
         <input
-          className="h-14 px-4 rounded-lg border border-black/10 bg-white/70 mb-3 backdrop-blur-[0.5rem] placeholder-black"
+          className="h-14 px-4 rounded-lg border border-black/10 bg-white/90 mb-3 backdrop-blur-[0.5rem] placeholder-black"
           type="text"
           name="name"
           placeholder="Your name"
@@ -52,7 +52,7 @@ export default function Contact() {
           style={{ caretColor: "black" }}
         />
         <input
-          className="h-14 px-4 rounded-lg border border-black/10 bg-white/70 backdrop-blur-[0.5rem] placeholder-black"
+          className="h-14 px-4 rounded-lg border border-black/10 bg-white/90 backdrop-blur-[0.5rem] placeholder-black"
           type="email"
           name="senderEmail"
           placeholder="Your email"
@@ -64,7 +64,7 @@ export default function Contact() {
           maxLength={5000}
           name="message"
           id=""
-          className="h-52 my-3 rounded-lg border border-black/10 bg-white/70 p-4 backdrop-blur-[0.5rem] placeholder-black"
+          className="h-52 my-3 rounded-lg border border-black/10 bg-white/90 p-4 backdrop-blur-[0.5rem] placeholder-black"
           placeholder="Type your message here"
           style={{ caretColor: "black" }}
         ></textarea>

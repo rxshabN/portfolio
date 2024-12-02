@@ -21,12 +21,12 @@ export default function Certificate() {
       className="relative scroll-mt-28 poppins"
       ref={ref}
     >
-      <div className="sm:block hidden bg-[#a59ff5]/[0.3] absolute -z-10 top-[-6rem] -right-[5rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
-      <div className="sm:block hidden bg-[#e07577]/[0.2] absolute top-[-1rem] left-[25rem] h-[31.25rem] -z-10 w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+      <div className="sm:block hidden bg-[#6f61f3]/[0.3] absolute -z-10 top-[30rem] -right-[5rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+      <div className="sm:block hidden bg-[#0a192f]/[0.6] absolute top-[30rem] left-[25rem] h-[31.25rem] -z-10 w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
       <motion.h2
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        className="sm:text-7xl text-5xl font-medium capitalize mb-12 text-center poppins cursor-default"
+        className="sm:text-7xl text-5xl font-medium capitalize mb-12 text-center weight cursor-default"
       >
         Certificates
       </motion.h2>
@@ -35,7 +35,7 @@ export default function Certificate() {
           <React.Fragment key={index}>
             <VerticalTimelineElement
               contentStyle={{
-                backgroundColor: "#6C4F92",
+                backgroundColor: "#2a3959",
                 boxShadow: "none",
                 border: "1px solid rgba(255,255,255,0.1)",
                 textAlign: "left",
@@ -56,7 +56,7 @@ export default function Certificate() {
                 fontSize: "1.5rem",
               }}
             >
-              <h3 className="sm:text-2xl text-lg font-semibold">
+              <h3 className="sm:text-2xl text-lg font-semibold weight text-green-400">
                 {certificate.title}
               </h3>
               <p className="mt-2 leading-relaxed text-gray-300 sm:mr-50 mr-0 sm:text-base text-sm">
@@ -67,7 +67,7 @@ export default function Certificate() {
                   href={certificate.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-auto poppins border border-black/10 cursor-pointer bg-violet-700 px-7
+                  className="mt-auto weight border border-black/10 cursor-pointer bg-blue-700/[0.95] px-7
                   py-3 flex items-center gap-4 justify-center rounded-full outline-none active:scale-90
                   transition text-white w-fit"
                 >

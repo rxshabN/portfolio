@@ -40,7 +40,7 @@ export default function Intro() {
               width={300}
               height={300}
               priority={true}
-              className="sm:h-[300px] sm:w-[300px] h-40 w-40 rounded-full border-[0.35rem] border-white object-cover shadow-xl"
+              className="sm:h-[300px] sm:w-[300px] h-40 w-40 rounded-full border-[0.35rem] border-white object-cover shadow-xl shadow-green-400/[0.2]"
             />
           </motion.div>
         </div>
@@ -49,18 +49,21 @@ export default function Intro() {
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          I am <span className="font-bold text-green-400">Rishab Nagwani</span>,
-          a{" "}
-          <span className="font-bold text-green-400">
+          I am{" "}
+          <span className="font-bold text-green-400 weight">
+            Rishab Nagwani
+          </span>
+          , a{" "}
+          <span className="font-bold text-green-400 weight">
             Full-Stack Web Developer
           </span>{" "}
           focused on building{" "}
-          <span className="font-bold text-green-400">
+          <span className="font-bold text-green-400 weight">
             real-world web applications.
           </span>{" "}
           I am a sophomore at Vellore Institute of Technology, Tamil Nadu,
           India. I specialize in{" "}
-          <span className="font-bold text-green-400">MERN Stack</span>{" "}
+          <span className="font-bold text-green-400 weight">MERN Stack</span>{" "}
           development.
         </motion.h1>
       </section>
@@ -71,7 +74,7 @@ export default function Intro() {
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium mb-[2vh] sm:mb-0"
       >
         <a
-          className="poppins border border-black/10 cursor-pointer bg-gray-900 px-7 py-3 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
+          className="weight border text-black border-black/10 cursor-pointer bg-green-400 px-7 py-3 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
           href="/resume.pdf"
           download="RishabN-Resume.pdf"
           onMouseEnter={() => setIsHovered(true)}
@@ -93,7 +96,7 @@ export default function Intro() {
         </a>
         <Link
           href="#contact"
-          className="poppins group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
+          className="weight group bg-white text-gray-900 px-7 py-3 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
           onMouseEnter={() => setIsHovered1(true)}
           onMouseLeave={() => setIsHovered1(false)}
           onClick={() => {
@@ -120,7 +123,7 @@ export default function Intro() {
             href="http://www.linkedin.com/in/rishab-nagwani-53a37628a"
             className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
           >
-            <BsLinkedin size={22} />
+            <BsLinkedin size={18} />
           </Link>
           <Link
             rel="noopener noreferrer"
@@ -128,7 +131,7 @@ export default function Intro() {
             href="https://github.com/rxshabN"
             className="bg-white p-4 flex items-center text-gray-700 gap-2 rounded-full outline-none active:scale-90 transition"
           >
-            <BsGithub size={22} />
+            <BsGithub size={18} />
           </Link>
           <Link
             target="_blank"
@@ -136,13 +139,13 @@ export default function Intro() {
             href="mailto:nagwanirishab@gmail.com"
             className="bg-white p-4 flex items-center text-gray-700 gap-2 rounded-full outline-none active:scale-90 transition"
           >
-            <BsEnvelopeFill size={22} />
+            <BsEnvelopeFill size={18} />
           </Link>
           <Link
             href="https://www.instagram.com/ri_shab.n/profilecard/?igsh=MTd2ZmRlczlwZHlzMg=="
             className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
           >
-            <BsInstagram size={22} />
+            <BsInstagram size={18} />
           </Link>
         </div>
       </motion.div>

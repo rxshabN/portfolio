@@ -14,12 +14,12 @@ export default function Education() {
   const { ref } = useSectionInView("Education", 0.5);
   return (
     <section id="education" className="relative scroll-mt-28 poppins" ref={ref}>
-      <div className="sm:block hidden bg-[#a59ff5]/[0.3] absolute -z-10 top-[-6rem] -right-[5rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
-      <div className="sm:block hidden bg-[#e07577]/[0.2] absolute top-[-1rem] left-[55rem] h-[31.25rem] -z-10 w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"></div>
+      <div className="sm:block hidden bg-[#0e1d2d]/[0.3] absolute -z-10 top-[-10rem] -right-[-5rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+      <div className="sm:block hidden bg-[#6f61f3]/[0.2] absolute top-[-10rem] left-[7rem] h-[31.25rem] -z-10 w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
       <motion.h2
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        className="sm:text-7xl text-5xl font-medium capitalize mb-8 text-center poppins cursor-default"
+        className="weight sm:text-7xl text-5xl font-medium capitalize mb-8 text-center cursor-default"
       >
         Educational Background
       </motion.h2>
@@ -28,7 +28,7 @@ export default function Education() {
           <React.Fragment key={index}>
             <VerticalTimelineElement
               contentStyle={{
-                backgroundColor: "#6C4F92",
+                backgroundColor: "#2a3959",
                 boxShadow: "none",
                 border: "1px solid rgba(255,255,255,0.1)",
                 textAlign: "left",
@@ -49,7 +49,7 @@ export default function Education() {
                 fontSize: "1.5rem",
               }}
             >
-              <h3 className="font-semibold capitalize text-2xl text-white cursor-default">
+              <h3 className="weight font-semibold capitalize text-2xl cursor-default text-green-400">
                 {education.title}
               </h3>
               <p className="font-normal !mt-1 text-white cursor-default">

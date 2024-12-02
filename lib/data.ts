@@ -86,7 +86,7 @@ export const projectsData = [
   {
     title: "Real-time Chat App",
     description:
-      "A fully functional real-time chat application inspired by Discord. This project provides messaging, audio, and video chat capabilities using LiveKit, with user authentication powered by Clerk.",
+      "A fully functional real-time chat application inspired by Discord. This project provides messaging via WebSockets and audio/video chat capabilities using LiveKit, with user authentication powered by Clerk. Users can add members via invite links.",
     tags: [
       "Next.js",
       "PostgreSQL",
@@ -102,7 +102,7 @@ export const projectsData = [
   {
     title: "Payment Gateway App",
     description:
-      "A Patreon-like project built using Next.js, Tailwind CSS, and MongoDB Atlas. This project allows users to create accounts, sign in via OAuth using Google and GitHub, and make payments using Razorpay.",
+      "A Patreon-like project built using Next.js, Tailwind CSS, and MongoDB Atlas. This project allows users to create accounts, sign in via OAuth using Google/GitHub, and make payments using Razorpay.",
     tags: ["React", "Next.js", "TailwindCSS", "OAuth", "MongoDB", "Razorpay"],
     imageUrl: patreon,
     repolink: "https://github.com/rxshabN/patreon-clone",
@@ -111,7 +111,7 @@ export const projectsData = [
   {
     title: "Password Manager",
     description:
-      "A simple yet modern password manager built using React, Tailwind CSS, and MongoDB. This project allows users to store their passwords on a MongoDB Atlas cluster for easy access from the cloud.",
+      "A simple and modern password manager built using React, Tailwind CSS, and MongoDB. This project allows users to store their passwords on a MongoDB Atlas cluster. Users can also edit and delete their passwords.",
     tags: ["React", "Vite", "MongoDB", "TailwindCSS", "ExpressJS", "Mongoose"],
     imageUrl: password,
     repolink: "https://github.com/rxshabN/Password-Manager---mongodb",

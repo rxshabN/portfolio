@@ -15,18 +15,18 @@ export default function Projects() {
         id="projects"
         ref={ref}
       >
-        <div className="sm:block hidden bg-[#a59ff5]/[0.3] absolute -z-10 top-[-5rem] -right-[5rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
-        <div className="sm:block hidden bg-[#e07577]/[0.2] absolute top-[-4rem] left-[25rem] h-[31.25rem] -z-10 w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+        <div className="sm:block hidden bg-[#6f61f3]/[0.3] absolute -z-10 top-[220rem] left-[15rem] h-[37rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+        <div className="sm:block hidden bg-[#0e1d2d]/[0.4] absolute -z-10 top-[200rem] -right-[20rem] h-[37rem] w-[40rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
         <section className="mx-auto">
-          <h2 className="poppins cursor-default sm:text-7xl text-5xl font-medium capitalize mb-20 text-center">
+          <h2 className="weight cursor-default sm:text-7xl text-5xl font-medium capitalize mb-20 text-center">
             My Projects
           </h2>
-          <h3 className="text-center font-normal cursor-default -mt-12 text-xl sm:px-0 px-5 sm:mb-0 mb-5">
+          <h3 className="poppins text-center font-normal cursor-default -mt-16 text-xl sm:px-0 px-5 sm:mb-3 mb-5">
             Here are my top four projects, click on the image to check out the
             site.
           </h3>
           <br />
-          <h3 className="text-center text-xl font-normal cursor-default -mt-6 mb-10 sm:text-3xl px-5 sm:px-0 ">
+          <h3 className="poppins text-center text-xl font-normal cursor-default -mt-6 mb-10 px-5 sm:px-0 ">
             To view all my projects{" "}
             <Link
               href="https://github.com/rxshabN?tab=repositories"

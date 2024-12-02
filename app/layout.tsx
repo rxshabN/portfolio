@@ -4,7 +4,6 @@ import ActiveSectionContextProvider from "@/context/active-section-context";
 import { Toaster } from "react-hot-toast";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import MobileRedirectWrapper from "@/redirect/mobile-redirect-wrapper";
 
 export const metadata = {
   title: "Rishab Nagwani | Portfolio",
@@ -64,23 +63,21 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&family=Space+Grotesk:wght@300..700&display=swap"
           rel="stylesheet"
         />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </head>
-      <body className="antialiased bg-purple-950 text-white relative sm:pt-28">
-        <div className="bg-[#f08a8c]/[0.3] absolute -z-10 top-[-6rem] right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
-        <div className="bg-[#8a83f2]/[0.4] absolute top-[-1rem] left-[-35rem] h-[31.25rem] -z-10 w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"></div>
-        <MobileRedirectWrapper>
-          <ActiveSectionContextProvider>
-            <Header />
-            {children}
-            <SpeedInsights />
-            <Analytics />
-            <Toaster position="top-right" />
-          </ActiveSectionContextProvider>
-        </MobileRedirectWrapper>
+      <body className="antialiased bg-[#0a192f] text-white relative sm:pt-28">
+        <div className="bg-[#0e1d2d]/[0.3] absolute -z-10 top-[-24rem] right-[-10rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+        <div className="bg-[#6f61f3]/[0.4] absolute top-[-24rem] left-[7rem] h-[31.25rem] -z-10 w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+        <ActiveSectionContextProvider>
+          <Header />
+          {children}
+          <SpeedInsights />
+          <Analytics />
+          <Toaster position="top-right" />
+        </ActiveSectionContextProvider>
       </body>
     </html>
   );

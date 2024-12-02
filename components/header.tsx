@@ -20,7 +20,7 @@ export default function Header() {
   return (
     <header className="z-[999] relative hidden lg:block poppins">
       <motion.div
-        className="fixed top-0 left-1/2 -translate-x-1/2 h-[4.5rem] w-full rounded-none border border-gray-700 border-opacity-40 bg-gray-900 bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.5rem] sm:w-[77%] sm:rounded-full"
+        className="fixed top-0 left-1/2 -translate-x-1/2 h-[4.5rem] w-full rounded-none border border-gray-700 border-opacity-40 bg-[#1a2a7f] bg-opacity-80 shadow-lg shadow-green-400/[0.1] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.5rem] sm:w-[77%] sm:rounded-full"
         initial={{ y: -100, x: "-50%", opacity: 0 }}
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       ></motion.div>
@@ -48,10 +48,11 @@ export default function Header() {
               >
                 <button
                   className={clsx(
-                    "flex items-center justify-center w-full px-3 py-3 hover:bg-blue-700/[0.55] rounded-full transition",
+                    "flex items-center justify-center w-full px-3 py-3 hover:bg-[#2ea72e] rounded-full transition",
                     {
                       "text-white": activeSection === link.name,
                     }
+                    // hover:bg-[#1b8b1b]
                   )}
                   onClick={() => {
                     handleScroll(link.hash.replace("#", ""));
@@ -65,10 +66,10 @@ export default function Header() {
                       layoutId="activeSection"
                       transition={{
                         type: "spring",
-                        stiffness: 380,
-                        damping: 30,
+                        stiffness: 245,
+                        damping: 35,
                       }}
-                      className="bg-blue-700/[0.8] rounded-full absolute inset-0 -z-10 py-2"
+                      className="bg-[#2ea72e] rounded-full absolute inset-0 -z-10 py-2"
                     ></motion.span>
                   )}
                 </button>

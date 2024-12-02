@@ -41,15 +41,15 @@ export default function Skills() {
       ref={sectionRef}
       id="skills"
     >
-      <div className="sm:block hidden bg-[#6f61f3]/[0.3] absolute -z-10 top-[-1rem] left-[-75rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"></div>
-      <div className="sm:block hidden bg-[#e86365]/[0.4] absolute -z-10 top-[-6rem] -right-[15rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+      <div className="sm:block hidden bg-[#6f61f3]/[0.3] absolute -z-10 top-[-12rem] left-[-20rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+      <div className="sm:block hidden bg-[#0e1d2d]/[0.4] absolute -z-10 top-[-12rem] -right-[15rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
       <motion.h2
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        className="poppins sm:text-7xl text-5xl font-medium mb-16 cursor-default flex flex-col gap-y-10"
+        className="weight sm:text-7xl text-5xl font-medium mb-16 cursor-default flex flex-col gap-y-10"
       >
         My Skills
-        <span className="sm:text-2xl text-xl sm:px-0 px-10 text-center sm:mb-0 -mb-5">
+        <span className="poppins sm:text-2xl text-xl sm:px-0 px-10 text-center sm:mb-0 -mb-5">
           Frameworks/libraries I have used to build my applications.
         </span>
       </motion.h2>
@@ -62,8 +62,9 @@ export default function Skills() {
             animate={hasAnimated ? "animate" : "initial"} // Animate only if hasn't happened before
             viewport={{ once: true }}
             custom={index}
-            className="hover:bg-gray-600/70 transition-colors flex flex-col items-center justify-center bg-gray-400/60 border border-black/[0.1] rounded-xl px-5 py-3 shadow-md"
+            className="hover:bg-[#395388] transition-colors flex flex-col items-center justify-center bg-blue-500/[0.2]  border border-black/[0.1] rounded-xl px-5 py-3 shadow-md"
           >
+            {/* bg-gray-600/70 */}
             <Image
               src={skill.imageUrl}
               alt="logo of tech framework"
