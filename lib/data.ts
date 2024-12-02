@@ -3,15 +3,11 @@ import discord from "@/public/discord.png";
 import patreon from "@/public/patreon.png";
 import spotify from "@/public/spotify.png";
 import password from "@/public/password.png";
-import { BsGithub, BsMicrosoft } from "react-icons/bs";
+import { BsBriefcase, BsGithub, BsMicrosoft } from "react-icons/bs";
 import { SiMongodb } from "react-icons/si";
-import { FaBook, FaGraduationCap } from "react-icons/fa";
+import { FaBook, FaGraduationCap, FaLaptopCode } from "react-icons/fa";
 
 export const links = [
-  {
-    name: "Home",
-    hash: "#home",
-  },
   {
     name: "About",
     hash: "#about",
@@ -27,6 +23,10 @@ export const links = [
   {
     name: "Projects",
     hash: "#projects",
+  },
+  {
+    name: "Organizations",
+    hash: "#organizations",
   },
   {
     name: "Certificates",
@@ -57,9 +57,28 @@ export const educationData = [
     title: "Vellore Institute of Technology",
     location: "Katpadi, Vellore, Tamil Nadu-632014",
     description:
-      "Currently pursuing B.Tech in Computer Science and Engineering (AI & ML). Core Member of SIAM-VIT Chapter. Part-time Full-Stack Developer at VITrendZ.",
+      "I am currently pursuing B.Tech in Computer Science and Engineering (AI & ML). Core Member of SIAM-VIT Chapter. Part-time Full-Stack Developer at VITrendZ.",
     icon: React.createElement(FaGraduationCap),
     date: "2023 - Present",
+  },
+] as const;
+
+export const organizationData = [
+  {
+    title: "Society for Industrial and Applied Mathematics",
+    location: "VIT Vellore",
+    description:
+      "I am a core Member of SIAM-VIT Chapter. I am currently part of the technical team developing the official website.",
+    icon: React.createElement(BsBriefcase),
+    date: "February 2024 - Present",
+  },
+  {
+    title: "VITrendZ",
+    location: "VIT Vellore",
+    description:
+      "I am a full stack web developer at VITrendZ. I am a member of the core team incharge of redeveloping the landing page of VITrendZ website.",
+    icon: React.createElement(FaLaptopCode),
+    date: "October 2024 - Present",
   },
 ] as const;
 

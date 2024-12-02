@@ -12,18 +12,15 @@ import {
   BsLinkedin,
 } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
   const { setTimeOfLastClick, setActiveSection } = useActiveSectionContext();
-  const { ref } = useSectionInView("Home", 0.5);
   const [isHovered, setIsHovered] = useState(false);
   const [isHovered1, setIsHovered1] = useState(false);
   return (
     <>
       <section
-        ref={ref}
         id="home"
         className="poppins scroll-mt-28 cursor-default max-w-[75rem] sm:h-[30rem] sm:grid sm:grid-cols-[400px_1fr] items-center justify-between sm:mb-0 pt-8 sm:pt-0"
       >
@@ -71,7 +68,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium mb-[23vh] sm:mb-0"
+        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium mb-[2vh] sm:mb-0"
       >
         <a
           className="poppins border border-black/10 cursor-pointer bg-gray-900 px-7 py-3 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
@@ -123,7 +120,7 @@ export default function Intro() {
             href="http://www.linkedin.com/in/rishab-nagwani-53a37628a"
             className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
           >
-            <BsLinkedin />
+            <BsLinkedin size={22} />
           </Link>
           <Link
             rel="noopener noreferrer"
@@ -131,7 +128,7 @@ export default function Intro() {
             href="https://github.com/rxshabN"
             className="bg-white p-4 flex items-center text-gray-700 gap-2 rounded-full outline-none active:scale-90 transition"
           >
-            <BsGithub />
+            <BsGithub size={22} />
           </Link>
           <Link
             target="_blank"
@@ -139,13 +136,13 @@ export default function Intro() {
             href="mailto:nagwanirishab@gmail.com"
             className="bg-white p-4 flex items-center text-gray-700 gap-2 rounded-full outline-none active:scale-90 transition"
           >
-            <BsEnvelopeFill />
+            <BsEnvelopeFill size={22} />
           </Link>
           <Link
             href="https://www.instagram.com/ri_shab.n/profilecard/?igsh=MTd2ZmRlczlwZHlzMg=="
             className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
           >
-            <BsInstagram />
+            <BsInstagram size={22} />
           </Link>
         </div>
       </motion.div>

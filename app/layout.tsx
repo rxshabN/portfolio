@@ -4,6 +4,7 @@ import ActiveSectionContextProvider from "@/context/active-section-context";
 import { Toaster } from "react-hot-toast";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import MobileRedirectWrapper from "@/redirect/mobile-redirect-wrapper";
 
 export const metadata = {
   title: "Rishab Nagwani | Portfolio",
@@ -26,7 +27,7 @@ export const metadata = {
     url: "https://www.rishabnagwani.tech",
     images: [
       {
-        url: "https://www.rishabnagwani.tech/logo.jpg",
+        url: "https://www.rishabnagwani.tech/logo1.png",
         alt: "image of logo",
       },
     ],
@@ -71,13 +72,15 @@ export default function RootLayout({
       <body className="antialiased bg-purple-950 text-white relative sm:pt-28">
         <div className="bg-[#f08a8c]/[0.3] absolute -z-10 top-[-6rem] right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
         <div className="bg-[#8a83f2]/[0.4] absolute top-[-1rem] left-[-35rem] h-[31.25rem] -z-10 w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"></div>
-        <ActiveSectionContextProvider>
-          <Header />
-          {children}
-          <SpeedInsights />
-          <Analytics />
-          <Toaster position="top-right" />
-        </ActiveSectionContextProvider>
+        <MobileRedirectWrapper>
+          <ActiveSectionContextProvider>
+            <Header />
+            {children}
+            <SpeedInsights />
+            <Analytics />
+            <Toaster position="top-right" />
+          </ActiveSectionContextProvider>
+        </MobileRedirectWrapper>
       </body>
     </html>
   );

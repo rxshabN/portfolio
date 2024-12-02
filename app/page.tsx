@@ -5,6 +5,7 @@ import Divider from "@/components/divider";
 import Education from "@/components/education";
 import Footer from "@/components/footer";
 import Intro from "@/components/intro";
+import Organization from "@/components/organizations";
 import Projects from "@/components/projects";
 import Skills from "@/components/skills";
 
@@ -20,6 +21,8 @@ export default function Home() {
       <Skills />
       <Divider />
       <Projects />
+      <Divider />
+      <Organization />
       <Divider />
       <Certificate />
       <Divider />
