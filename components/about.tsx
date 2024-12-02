@@ -52,7 +52,7 @@ export default function About() {
               </div>
               <div className="flex items-start gap-4">
                 <p className="leading-relaxed">
-                  🌐 I’ve developed{" "}
+                  🌐 I’ve developed a range of projects, from{" "}
                   <b className="weight text-green-400">simple SPAs</b> to
                   dynamic{" "}
                   <b className="weight text-green-400">
