@@ -17,7 +17,7 @@ export default function Project({
   link,
 }: ProjectProps) {
   return (
-    <section className="rounded-xl border-none relative poppins cursor-default hover:bg-[#395388] transition group mb-3 sm:mb-8 last:mb-0 bg-[#2a3959] overflow-hidden sm:pr-8 sm:h-[30rem] h-max">
+    <section className="rounded-xl border-none relative poppins cursor-default hover:bg-[#714ea3ab] transition group mb-3 sm:mb-8 last:mb-0 bg-[#5e2a88B3] overflow-hidden sm:pr-8 lg:h-[30rem] h-max">
       <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] max-w-[100%] flex flex-col h-full">
         <h3 className="weight sm:text-2xl text-lg font-semibold text-green-400">
           {title}
@@ -30,7 +30,7 @@ export default function Project({
             href={repolink}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-auto poppins border border-black/10 cursor-pointer bg-blue-700/[0.95] px-7
+            className="mt-auto poppins border border-black/10 cursor-pointer bg-[#a724dc]/[0.85] px-7
           py-3 flex items-center gap-4 justify-center rounded-full outline-none active:scale-90
           transition text-white w-fit"
           >

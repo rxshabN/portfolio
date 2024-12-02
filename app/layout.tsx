@@ -68,9 +68,9 @@ export default function RootLayout({
         />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </head>
-      <body className="antialiased bg-[#0a192f] text-white relative sm:pt-28">
-        <div className="sm:block hidden bg-[#0e1d2d]/[0.3] absolute -z-10 top-[-24rem] right-[-10rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
-        <div className="sm:block hidden bg-[#6f61f3]/[0.4] absolute top-[-24rem] left-[7rem] h-[31.25rem] -z-10 w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+      <body className="antialiased bg-[#25133b] text-white relative sm:pt-28">
+        <div className="lg:block hidden bg-[#0e1d2d]/[0.3] absolute -z-10 top-[-24rem] right-[-10rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+        <div className="lg:block hidden bg-[#6f61f3]/[0.4] absolute top-[-24rem] left-[7rem] h-[31.25rem] -z-10 w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
         <ActiveSectionContextProvider>
           <Header />
           {children}

@@ -41,8 +41,8 @@ export default function Skills() {
       ref={sectionRef}
       id="skills"
     >
-      <div className="sm:block hidden bg-[#6f61f3]/[0.3] absolute -z-10 top-[-12rem] left-[-20rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
-      <div className="sm:block hidden bg-[#0e1d2d]/[0.4] absolute -z-10 top-[-12rem] -right-[15rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+      <div className="lg:block hidden bg-[#6f61f3]/[0.3] absolute -z-10 top-[-12rem] left-[-20rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+      <div className="lg:block hidden bg-[#0e1d2d]/[0.4] absolute -z-10 top-[-12rem] -right-[15rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
       <motion.h2
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -62,7 +62,7 @@ export default function Skills() {
             animate={hasAnimated ? "animate" : "initial"} // Animate only if hasn't happened before
             viewport={{ once: true }}
             custom={index}
-            className="hover:bg-[#395388] transition-colors flex flex-col items-center justify-center bg-blue-500/[0.2]  border border-black/[0.1] rounded-xl px-5 py-3 shadow-md"
+            className="hover:bg-[#8460b6a7] cursor-default transition-colors flex flex-col items-center justify-center bg-[#8239bd5a]  border border-black/[0.1] rounded-xl px-5 py-3 shadow-md"
           >
             {/* bg-gray-600/70 */}
             <Image

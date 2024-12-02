@@ -12,7 +12,7 @@ export default function Submit() {
       disabled={pending}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className="weight group disabled:scale-100 disabled:bg-opacity-65 h-[3.5rem] w-[9rem] bg-blue-700/[0.8] text-white group rounded-full transition-all outline-none active:scale-90 flex items-center justify-center gap-2"
+      className="weight group disabled:scale-100 disabled:bg-opacity-65 h-[3.5rem] w-[9rem] bg-[#a724dc]/[0.85] text-white group rounded-full transition-all outline-none active:scale-90 flex items-center justify-center gap-2"
     >
       {pending ? (
         <div className="h-5 w-5 animate-spin rounded-full border-b-2 border-white"></div>

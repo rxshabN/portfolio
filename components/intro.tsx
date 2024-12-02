@@ -22,7 +22,7 @@ export default function Intro() {
     <>
       <section
         id="home"
-        className="poppins scroll-mt-28 cursor-default max-w-[75rem] sm:h-[30rem] sm:grid sm:grid-cols-[400px_1fr] items-center justify-between sm:mb-0 pt-8 sm:pt-0"
+        className="poppins scroll-mt-28 cursor-default max-w-[75rem] lg:h-[30rem] sm:grid sm:grid-cols-[400px_1fr] items-center justify-between sm:mb-0 pt-8 sm:pt-0"
       >
         <div className="flex items-center justify-center">
           <motion.div

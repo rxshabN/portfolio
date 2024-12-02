@@ -14,8 +14,8 @@ export default function Education() {
   const { ref } = useSectionInView("Education", 0.5);
   return (
     <section id="education" className="relative scroll-mt-28 poppins" ref={ref}>
-      <div className="sm:block hidden bg-[#0e1d2d]/[0.3] absolute -z-10 top-[-10rem] -right-[-5rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
-      <div className="sm:block hidden bg-[#6f61f3]/[0.2] absolute top-[-10rem] left-[7rem] h-[31.25rem] -z-10 w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+      <div className="lg:block hidden bg-[#0e1d2d]/[0.3] absolute -z-10 top-[-10rem] -right-[-5rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+      <div className="lg:block hidden bg-[#6f61f3]/[0.2] absolute top-[-10rem] left-[7rem] h-[31.25rem] -z-10 w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
       <motion.h2
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -28,9 +28,9 @@ export default function Education() {
           <React.Fragment key={index}>
             <VerticalTimelineElement
               contentStyle={{
-                backgroundColor: "#2a3959",
+                backgroundColor: "#5e2a88B3",
                 boxShadow: "none",
-                border: "1px solid rgba(255,255,255,0.1)",
+                border: "1px solid rgba(94, 42, 136, 0.1)",
                 textAlign: "left",
                 padding: "1.3rem 2rem",
                 backdropFilter: "blur(30px)",

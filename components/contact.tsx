@@ -15,8 +15,8 @@ export default function Contact() {
       id="contact"
       className="relative poppins scroll-mt-28 sm:mb-28 mb-20 w-[min(85%,38rem)] text-center"
     >
-      <div className="sm:block hidden bg-[#6f61f3]/[0.3] absolute -z-10 top-[-1rem] left-[-75rem] h-[37rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"></div>
-      <div className="sm:block hidden bg-[#0e1d2d]/[0.4] absolute -z-10 top-[-60rem] -right-[0rem] h-[37rem] w-[40rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+      <div className="lg:block hidden bg-[#6f61f3]/[0.3] absolute -z-10 top-[-1rem] left-[-75rem] h-[37rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"></div>
+      <div className="lg:block hidden bg-[#0e1d2d]/[0.4] absolute -z-10 top-[-60rem] -right-[0rem] h-[37rem] w-[40rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
       <h2 className="cursor-default weight sm:text-7xl text-5xl font-medium capitalize mb-8 text-center">
         Contact me
       </h2>

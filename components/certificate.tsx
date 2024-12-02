@@ -21,8 +21,8 @@ export default function Certificate() {
       className="relative scroll-mt-28 poppins"
       ref={ref}
     >
-      <div className="sm:block hidden bg-[#6f61f3]/[0.3] absolute -z-10 top-[30rem] -right-[5rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
-      <div className="sm:block hidden bg-[#0a192f]/[0.6] absolute top-[30rem] left-[25rem] h-[31.25rem] -z-10 w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+      <div className="lg:block hidden bg-[#6f61f3]/[0.3] absolute -z-10 top-[30rem] -right-[5rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+      <div className="lg:block hidden bg-[#0a192f]/[0.6] absolute top-[30rem] left-[25rem] h-[31.25rem] -z-10 w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
       <motion.h2
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -35,9 +35,9 @@ export default function Certificate() {
           <React.Fragment key={index}>
             <VerticalTimelineElement
               contentStyle={{
-                backgroundColor: "#2a3959",
+                backgroundColor: "#5e2a88B3",
                 boxShadow: "none",
-                border: "1px solid rgba(255,255,255,0.1)",
+                border: "1px solid rgba(94, 42, 136, 0.1)",
                 textAlign: "left",
                 padding: "1.3rem 2rem",
                 backdropFilter: "blur(30px)",
@@ -67,7 +67,7 @@ export default function Certificate() {
                   href={certificate.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-auto weight border border-black/10 cursor-pointer bg-blue-700/[0.95] px-7
+                  className="mt-auto weight border border-black/10 cursor-pointer bg-[#a724dc]/[0.85] px-7
                   py-3 flex items-center gap-4 justify-center rounded-full outline-none active:scale-90
                   transition text-white w-fit"
                 >
