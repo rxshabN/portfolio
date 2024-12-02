@@ -104,7 +104,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Let's connect!{" "}
+          Let's Connect!{" "}
           <motion.div
             className="flex items-center"
             animate={{
