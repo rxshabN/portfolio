@@ -17,7 +17,7 @@ export default function Project({
   link,
 }: ProjectProps) {
   return (
-    <section className="rounded-xl border-none relative poppins cursor-default hover:bg-[#395388] transition group mb-3 sm:mb-8 last:mb-0 bg-[#2a3959] overflow-hidden sm:pr-8 sm:h-[30rem] h-[19.5rem]">
+    <section className="rounded-xl border-none relative poppins cursor-default hover:bg-[#395388] transition group mb-3 sm:mb-8 last:mb-0 bg-[#2a3959] overflow-hidden sm:pr-8 sm:h-[30rem] h-max">
       <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] max-w-[100%] flex flex-col h-full">
         <h3 className="weight sm:text-2xl text-lg font-semibold text-green-400">
           {title}
