@@ -62,7 +62,7 @@ export default function Skills() {
             animate={hasAnimated ? "animate" : "initial"} // Animate only if hasn't happened before
             viewport={{ once: true }}
             custom={index}
-            className="hover:bg-[#8460b6a7] cursor-default transition-colors flex flex-col items-center justify-center bg-[#8239bd5a]  border border-black/[0.1] rounded-xl px-5 py-3 shadow-md"
+            className="hover:bg-[#395388] cursor-default transition-colors flex flex-col items-center justify-center bg-blue-500/[0.2] border border-black/[0.1] rounded-xl px-5 py-3 shadow-md"
           >
             {/* bg-gray-600/70 */}
             <Image

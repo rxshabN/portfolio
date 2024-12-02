@@ -28,7 +28,7 @@ export default function Education() {
           <React.Fragment key={index}>
             <VerticalTimelineElement
               contentStyle={{
-                backgroundColor: "#5e2a88B3",
+                backgroundColor: "#2a3959",
                 boxShadow: "none",
                 border: "1px solid rgba(94, 42, 136, 0.1)",
                 textAlign: "left",

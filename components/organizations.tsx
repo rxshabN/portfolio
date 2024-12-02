@@ -32,9 +32,9 @@ export default function Organization() {
           <React.Fragment key={index}>
             <VerticalTimelineElement
               contentStyle={{
-                backgroundColor: "#5e2a88B3",
+                backgroundColor: "#2a3959",
                 boxShadow: "none",
-                border: "1px solid rgba(94, 42, 136, 0.1)",
+                border: "1px solid rgba(255,255,255,0.1)",
                 textAlign: "left",
                 padding: "1.3rem 2rem",
                 backdropFilter: "blur(30px)",
