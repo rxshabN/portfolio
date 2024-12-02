@@ -59,7 +59,7 @@ export default function Intro() {
           </span>{" "}
           focused on building{" "}
           <span className="font-bold text-green-400 weight">
-            real-world web applications.
+            real-world web applications. <br />
           </span>{" "}
           I am a sophomore at Vellore Institute of Technology, Tamil Nadu,
           India. I specialize in{" "}
