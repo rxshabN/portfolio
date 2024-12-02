@@ -88,7 +88,7 @@ export default function About() {
                     hands-on learning
                   </b>{" "}
                   that fuels my desire to contribute meaningfully to the tech
-                  community.
+                  community and to society.
                 </p>
               </div>
               <div className="flex items-start gap-4">
