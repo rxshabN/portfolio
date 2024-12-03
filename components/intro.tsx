@@ -13,6 +13,7 @@ import {
 } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { FaUserAlt } from "react-icons/fa";
 
 export default function Intro() {
   const { setTimeOfLastClick, setActiveSection } = useActiveSectionContext();
@@ -126,7 +127,9 @@ export default function Intro() {
         </Link>
         <div className="flex flex-row gap-x-2">
           <Link
-            href="http://www.linkedin.com/in/rishab-nagwani-53a37628a"
+            href="https://www.linkedin.com/in/rishab-nagwani-53a37628a"
+            rel="noopener noreferrer"
+            target="_blank"
             className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
           >
             <BsLinkedin size={18} />
@@ -149,9 +152,19 @@ export default function Intro() {
           </Link>
           <Link
             href="https://www.instagram.com/ri_shab.n/profilecard/?igsh=MTd2ZmRlczlwZHlzMg=="
+            rel="noopener noreferrer"
+            target="_blank"
             className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
           >
             <BsInstagram size={18} />
+          </Link>
+          <Link
+            href="https://peerlist.io/rishabnagwani"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
+          >
+            <FaUserAlt size={18} />
           </Link>
         </div>
       </motion.div>

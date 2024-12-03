@@ -10,7 +10,7 @@ export default function Footer() {
         </p>
         <div className="mt-2 -mb-5 flex justify-center gap-6 text-sm">
           <Link
-            href="http://www.linkedin.com/in/rishab-nagwani-53a37628a"
+            href="https://www.linkedin.com/in/rishab-nagwani-53a37628a"
             target="_blank"
             rel="noopener noreferrer"
             className="no-underline"
@@ -28,6 +28,7 @@ export default function Footer() {
           <Link
             href="mailto:nagwanirishab@gmail.com"
             target="_blank"
+            rel="noopener noreferrer"
             className="no-underline"
           >
             <span>Email</span>
@@ -39,6 +40,14 @@ export default function Footer() {
             className="no-underline"
           >
             <span>Instagram</span>
+          </Link>
+          <Link
+            href="https://peerlist.io/rishabnagwani"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="no-underline"
+          >
+            <span>Peerlist</span>
           </Link>
         </div>
       </div>
