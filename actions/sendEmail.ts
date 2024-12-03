@@ -13,17 +13,17 @@ export const sendEmail = async (formData: FormData) => {
   const name = formData.get("name");
   if (!validateString(senderEmail, 500)) {
     return {
-      error: "Invalid email address",
+      error: "Please enter a valid email address",
     };
   }
   if (!validateString(message, 5000)) {
     return {
-      error: "Invalid message",
+      error: "Message length should be less than 5000 characters",
     };
   }
-  if (!validateString(name, 50)) {
+  if (!validateString(name, 70)) {
     return {
-      error: "Invalid name",
+      error: "Name should be less than 70 characters",
     };
   }
   const subject = `Message received from ${name}`;
