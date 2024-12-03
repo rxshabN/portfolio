@@ -63,7 +63,7 @@ export default function Contact() {
         <textarea
           maxLength={5000}
           name="message"
-          id=""
+          required={true}
           className="h-52 text-black my-3 rounded-lg border border-black/10 bg-white/90 p-4 backdrop-blur-[0.5rem] placeholder-black"
           placeholder="Type your message here"
           style={{ caretColor: "black" }}
