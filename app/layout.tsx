@@ -38,11 +38,26 @@ export const metadata = {
       "@context": "https://schema.org",
       "@type": "Person",
       name: "Rishab Nagwani",
-      url: "https://www.rishabnagwni.tech",
+      url: "https://www.rishabnagwani.tech",
       sameAs: [
         "http://www.linkedin.com/in/rishab-nagwani-53a37628a",
         "https://github.com/rxshabN",
         "https://www.instagram.com/ri_shab.n/profilecard/?igsh=MTd2ZmRlczlwZHlzMg==",
+      ],
+      description:
+        "I am Rishab Nagwani, a full-stack web developer focused on building real-world web applications.",
+      jobTitle: "Full-Stack Web Developer",
+      alumniOf: {
+        "@type": "CollegeOrUniversity",
+        name: "Vellore Institute of Technology",
+        sameAs: "https://vit.ac.in",
+      },
+      knowsAbout: [
+        "Full Stack Web Development",
+        "MERN Stack",
+        "JavaScript",
+        "Next.js",
+        "React",
       ],
     }),
   },
