@@ -43,7 +43,7 @@ export default function Contact() {
         }}
       >
         <input
-          className="h-14 px-4 rounded-lg border border-black/10 bg-white/90 mb-3 backdrop-blur-[0.5rem] placeholder-black"
+          className="h-14 px-4 text-black rounded-lg border border-black/10 bg-white/90 mb-3 backdrop-blur-[0.5rem] placeholder-black"
           type="text"
           name="name"
           placeholder="Your name"
@@ -52,7 +52,7 @@ export default function Contact() {
           style={{ caretColor: "black" }}
         />
         <input
-          className="h-14 px-4 rounded-lg border border-black/10 bg-white/90 backdrop-blur-[0.5rem] placeholder-black"
+          className="h-14 text-black px-4 rounded-lg border border-black/10 bg-white/90 backdrop-blur-[0.5rem] placeholder-black"
           type="email"
           name="senderEmail"
           placeholder="Your email"
@@ -64,7 +64,7 @@ export default function Contact() {
           maxLength={5000}
           name="message"
           id=""
-          className="h-52 my-3 rounded-lg border border-black/10 bg-white/90 p-4 backdrop-blur-[0.5rem] placeholder-black"
+          className="h-52 text-black my-3 rounded-lg border border-black/10 bg-white/90 p-4 backdrop-blur-[0.5rem] placeholder-black"
           placeholder="Type your message here"
           style={{ caretColor: "black" }}
         ></textarea>
