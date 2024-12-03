@@ -48,7 +48,7 @@ export default function Contact() {
           name="name"
           placeholder="Your name"
           required={true}
-          maxLength={50}
+          maxLength={70}
           style={{ caretColor: "black" }}
         />
         <input
