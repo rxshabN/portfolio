@@ -16,7 +16,6 @@ export default function About() {
   return (
     <>
       <motion.section
-        id="about"
         ref={(el) => {
           ref(el);
           animationRef(el);
@@ -78,17 +77,16 @@ export default function About() {
             <div className="sm:space-y-6 space-y-4">
               <div className="flex items-start gap-4">
                 <p className="leading-relaxed">
-                  I’m passionate about developing solutions for{" "}
+                  I’m very passionate about developing solutions for{" "}
                   <b className="weight text-green-400">real-world challenges</b>{" "}
                   and creating{" "}
                   <b className="weight text-green-400">impactful projects </b>
-                  through web development. It’s this relentless pursuit of
-                  knowledge and{" "}
-                  <b className="weight text-green-400">
-                    hands-on learning
-                  </b>{" "}
-                  that fuels my desire to contribute meaningfully to the tech
-                  community and to society.
+                  through{" "}
+                  <b className="text-green-400 weight">web development</b>. It’s
+                  this relentless pursuit of knowledge and{" "}
+                  <b className="weight text-green-400">hands-on learning</b>{" "}
+                  that fuels my desire to provide meaningful contributions to
+                  the tech community and to society.
                 </p>
               </div>
               <div className="flex items-start gap-4">
@@ -98,7 +96,7 @@ export default function About() {
                   <b className="weight text-green-400">
                     networking and collaboration
                   </b>{" "}
-                  to create something extraordinary. Whether it’s{" "}
+                  to envision and create something extraordinary. Whether it’s{" "}
                   <b className="weight text-green-400">
                     discussing new technologies
                   </b>{" "}

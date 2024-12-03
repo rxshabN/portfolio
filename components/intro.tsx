@@ -21,7 +21,7 @@ export default function Intro() {
   return (
     <>
       <section
-        id="home"
+        id="about"
         className="poppins scroll-mt-28 cursor-default max-w-[75rem] lg:h-[30rem] sm:grid sm:grid-cols-[400px_1fr] items-center justify-between sm:mb-0 pt-8 sm:pt-0"
       >
         <div className="flex items-center justify-center">
@@ -45,26 +45,32 @@ export default function Intro() {
           </motion.div>
         </div>
         <motion.h1
-          className="mb-10 mt-4 px-4 text-center sm:text-justify text-2xl font-medium !leading-[1.5] sm:text-[2rem]"
+          className="mb-10 mt-4 px-4 text-center sm:text-center text-2xl font-medium !leading-[1.5] sm:text-[2rem]"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          I am{" "}
+          I,{" "}
           <span className="font-bold text-green-400 weight">
             Rishab Nagwani
           </span>
-          , a{" "}
+          , am a <br className="sm:hidden visible" />{" "}
           <span className="font-bold text-green-400 weight">
             Full-Stack Web Developer
           </span>{" "}
-          focused on building{" "}
+          focused on building <br className="sm:hidden visible" />{" "}
           <span className="font-bold text-green-400 weight">
-            real-world web applications. <br />
+            real world web applications
+          </span>
+          .
+          <br />I am currently a sophomore pursuing B.Tech at{" "}
+          <br className="visible sm:hidden" />{" "}
+          <span className="font-bold weight text-green-400">
+            Vellore Institute of Technology
           </span>{" "}
-          I am a sophomore at Vellore Institute of Technology, Tamil Nadu,
-          India. I specialize in{" "}
+          Vellore, Tamil Nadu. <br /> My specialization is{" "}
+          <br className="sm:hidden visible" />{" "}
           <span className="font-bold text-green-400 weight">MERN Stack</span>{" "}
-          development.
+          Development.
         </motion.h1>
       </section>
       <motion.div
