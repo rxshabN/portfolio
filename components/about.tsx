@@ -29,7 +29,7 @@ export default function About() {
           About me
         </h2>
         <div className="lg:grid lg:grid-cols-2 flex flex-col sm:gap-x-20 sm:max-w-[75rem] w-[fit]">
-          <div className="mb-3 text-pretty sm:text-start sm:flex sm:flex-col sm:gap-y-5 sm:text-2xl text-base px-10">
+          <div className="mb-3 text-pretty sm:text-start sm:flex sm:flex-col sm:gap-y-5 sm:text-2xl text-lg px-10">
             <div className="sm:space-y-6 space-y-4">
               <div className="flex items-start gap-4">
                 <p className="leading-relaxed">
@@ -73,7 +73,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="mb-3 text-justify sm:flex sm:flex-col sm:gap-y-5 sm:text-2xl text-base px-10">
+          <div className="mb-3 text-justify sm:flex sm:flex-col sm:gap-y-5 sm:text-2xl text-lg px-10">
             <div className="sm:space-y-6 space-y-4">
               <div className="flex items-start gap-4">
                 <p className="leading-relaxed">
