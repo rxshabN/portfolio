@@ -13,7 +13,11 @@ import "react-vertical-timeline-component/style.min.css";
 export default function Education() {
   const { ref } = useSectionInView("Education", 0.5);
   return (
-    <section id="education" className="relative scroll-mt-28 poppins" ref={ref}>
+    <section
+      id="education"
+      className="relative scroll-mt-28 poppins sm:mb-0 mb-5"
+      ref={ref}
+    >
       <div className="lg:block hidden bg-[#0e1d2d]/[0.3] absolute -z-10 top-[-10rem] -right-[-5rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
       <div className="lg:block hidden bg-[#6f61f3]/[0.2] absolute top-[-10rem] left-[7rem] h-[31.25rem] -z-10 w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
       <motion.h2

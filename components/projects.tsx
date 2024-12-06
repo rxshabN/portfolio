@@ -11,7 +11,7 @@ export default function Projects() {
   return (
     <>
       <div
-        className="poppins mb-3 last:mb-0 scroll-mt-28 mx-5"
+        className="poppins sm:mb-0 mb-5 last:mb-0 scroll-mt-28 mx-5"
         id="projects"
         ref={ref}
       >

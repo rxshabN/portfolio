@@ -8,7 +8,7 @@ export default function Footer() {
         <p className="text-sm">
           &copy; {new Date().getFullYear()} Rishab Nagwani. All rights reserved.
         </p>
-        <div className="mt-2 -mb-5 flex justify-center gap-6 text-sm">
+        <div className="mt-2 -mb-5 flex justify-center gap-6 text-sm sm:flex-nowrap flex-wrap w-[21.5rem]">
           <Link
             href="https://www.linkedin.com/in/rishab-nagwani-53a37628a"
             target="_blank"

@@ -18,7 +18,7 @@ export default function Certificate() {
   return (
     <section
       id="certificates"
-      className="relative scroll-mt-28 poppins"
+      className="relative scroll-mt-28 poppins sm:mb-0 mb-5"
       ref={ref}
     >
       <div className="lg:block hidden bg-[#6f61f3]/[0.3] absolute -z-10 top-[30rem] -right-[5rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
@@ -26,7 +26,7 @@ export default function Certificate() {
       <motion.h2
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        className="sm:text-7xl text-5xl font-medium capitalize mb-12 text-center weight cursor-default"
+        className="sm:text-7xl text-5xl font-medium capitalize mb-5 text-center weight cursor-default"
       >
         Certificates
       </motion.h2>

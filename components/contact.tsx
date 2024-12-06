@@ -43,30 +43,30 @@ export default function Contact() {
         }}
       >
         <input
-          className="h-14 px-4 text-black rounded-lg border border-black/10 bg-white/90 mb-3 backdrop-blur-[0.5rem] placeholder-slate-400"
+          className="h-14 px-4 text-white rounded-lg shadow-lg shadow-green-400/20 bg-[#9b9ba54a] mb-3 backdrop-blur-[0.5rem] placeholder-slate-400"
           type="text"
           name="name"
           placeholder="Your name"
           required={true}
           maxLength={70}
-          style={{ caretColor: "black" }}
+          style={{ caretColor: "white" }}
         />
         <input
-          className="h-14 text-black px-4 rounded-lg border border-black/10 bg-white/90 backdrop-blur-[0.5rem] placeholder-slate-400"
+          className="h-14 text-white px-4 rounded-lg shadow-lg shadow-green-400/20 bg-[#9b9ba54a] backdrop-blur-[0.5rem] placeholder-slate-400"
           type="email"
           name="senderEmail"
           placeholder="Your email"
           required={true}
           maxLength={500}
-          style={{ caretColor: "black" }}
+          style={{ caretColor: "white" }}
         />
         <textarea
           maxLength={5000}
           name="message"
           required={true}
-          className="h-52 text-black my-3 rounded-lg border border-black/10 bg-white/90 p-4 backdrop-blur-[0.5rem] placeholder-slate-400"
+          className="h-52 text-white my-3 rounded-lg shadow-lg shadow-green-400/20 bg-[#9b9ba54a] p-4 backdrop-blur-[0.5rem] placeholder-slate-400"
           placeholder="Type your message here"
-          style={{ caretColor: "black" }}
+          style={{ caretColor: "white" }}
         ></textarea>
         <div className="mx-auto sm:mx-0">
           <Submit />

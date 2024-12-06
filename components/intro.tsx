@@ -13,7 +13,6 @@ import {
 } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import { FaUserAlt } from "react-icons/fa";
 
 export default function Intro() {
   const { setTimeOfLastClick, setActiveSection } = useActiveSectionContext();
@@ -132,7 +131,12 @@ export default function Intro() {
             target="_blank"
             className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
           >
-            <BsLinkedin size={18} />
+            <Image
+              src="/linkedin.ico"
+              alt="image of linkedin icon"
+              height={23}
+              width={23}
+            />
           </Link>
           <Link
             rel="noopener noreferrer"
@@ -140,7 +144,12 @@ export default function Intro() {
             href="https://github.com/rxshabN"
             className="bg-white p-4 flex items-center text-gray-700 gap-2 rounded-full outline-none active:scale-90 transition"
           >
-            <BsGithub size={18} />
+            <Image
+              src="/github.ico"
+              alt="image of github icon"
+              height={23}
+              width={23}
+            />
           </Link>
           <Link
             target="_blank"
@@ -148,7 +157,12 @@ export default function Intro() {
             href="mailto:nagwanirishab@gmail.com"
             className="bg-white p-4 flex items-center text-gray-700 gap-2 rounded-full outline-none active:scale-90 transition"
           >
-            <BsEnvelopeFill size={18} />
+            <Image
+              src="/gmail.ico"
+              alt="image of gmail icon"
+              height={23}
+              width={23}
+            />
           </Link>
           <Link
             href="https://www.instagram.com/ri_shab.n/profilecard/?igsh=MTd2ZmRlczlwZHlzMg=="
@@ -156,7 +170,12 @@ export default function Intro() {
             target="_blank"
             className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
           >
-            <BsInstagram size={18} />
+            <Image
+              src="/insta.png"
+              alt="image of insta icon"
+              height={23}
+              width={23}
+            />
           </Link>
           <Link
             href="https://peerlist.io/rishabnagwani"
@@ -164,7 +183,12 @@ export default function Intro() {
             target="_blank"
             className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
           >
-            <FaUserAlt size={18} />
+            <Image
+              src="/peerlist.ico"
+              alt="image of peerlist icon"
+              height={23}
+              width={23}
+            />
           </Link>
         </div>
       </motion.div>

@@ -15,7 +15,7 @@ export default function Organization() {
   return (
     <section
       id="organizations"
-      className="relative scroll-mt-28 poppins"
+      className="relative scroll-mt-28 poppins sm:mb-0 mb-5"
       ref={ref}
     >
       <div className="lg:block hidden bg-[#0e1d2d]/[0.3] absolute -z-10 top-[-6rem] -right-[5rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>

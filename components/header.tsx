@@ -33,7 +33,7 @@ export default function Header() {
           >
             <button
               onClick={() => handleScroll("about")}
-              className="cursor-pointer focus:outline-none"
+              className="cursor-pointer focus:outline-none weight"
             >
               Rishab Nagwani
             </button>
@@ -52,7 +52,6 @@ export default function Header() {
                     {
                       "text-white": activeSection === link.name,
                     }
-                    // hover:bg-[#1b8b1b]
                   )}
                   onClick={() => {
                     handleScroll(link.hash.replace("#", ""));
