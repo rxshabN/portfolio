@@ -4,13 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import {
-  BsArrowRight,
-  BsEnvelopeFill,
-  BsGithub,
-  BsInstagram,
-  BsLinkedin,
-} from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
