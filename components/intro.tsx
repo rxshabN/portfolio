@@ -60,7 +60,7 @@ export default function Intro() {
           sophomore <span className="hidden sm:visible">pursuing B.Tech</span>{" "}
           at <br className="visible sm:hidden" />{" "}
           <span className="font-bold weight text-green-400">
-            Vellore Institute of Technology
+            Vellore Institute of Technology <br className="sm:hidden visible" />
           </span>{" "}
           Vellore, Tamil Nadu. <br /> My specialization is{" "}
           <br className="sm:hidden visible" />{" "}
