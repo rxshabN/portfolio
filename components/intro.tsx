@@ -56,8 +56,9 @@ export default function Intro() {
             real world web applications
           </span>
           .
-          <br />I am currently a sophomore pursuing B.Tech at{" "}
-          <br className="visible sm:hidden" />{" "}
+          <br />I am <span className="sm:visible hidden">currently</span> a
+          sophomore <span className="hidden sm:visible">pursuing B.Tech</span>{" "}
+          at <br className="visible sm:hidden" />{" "}
           <span className="font-bold weight text-green-400">
             Vellore Institute of Technology
           </span>{" "}
