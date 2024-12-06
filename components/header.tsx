@@ -32,7 +32,7 @@ export default function Header() {
             animate={{ y: 0, opacity: 1 }}
           >
             <button
-              onClick={() => handleScroll("home")}
+              onClick={() => handleScroll("about")}
               className="cursor-pointer focus:outline-none"
             >
               Rishab Nagwani
