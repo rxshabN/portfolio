@@ -39,28 +39,28 @@ export default function Intro() {
           </motion.div>
         </div>
         <motion.h1
-          className="mb-10 mt-4 px-2 text-center sm:text-center text-2xl font-medium !leading-[1.5] sm:text-[2rem]"
+          className="mb-10 mt-4 px-0.5 text-center sm:text-center text-2xl font-medium !leading-[1.5] sm:text-[2rem]"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
           I,{" "}
           <span className="font-bold text-green-400 weight">
-            Rishab Nagwani
-          </span>
-          , am a <br className="sm:hidden visible" />{" "}
+            Rishab Nagwani,
+          </span>{" "}
+          am a <br className="sm:hidden visible" />{" "}
           <span className="font-bold text-green-400 weight">
             Full-Stack Web Developer
           </span>{" "}
           focused on building <br className="sm:hidden visible" />{" "}
           <span className="font-bold text-green-400 weight">
-            real world web applications
+            real world web applications.
           </span>
-          .
-          <br />I am <span className="sm:visible hidden">currently</span> a
-          sophomore <span className="hidden sm:visible">pursuing B.Tech</span>{" "}
-          at <br className="visible sm:hidden" />{" "}
+          <br />I am <span className="sm:inline hidden">currently</span> a
+          sophomore <span className="hidden sm:inline">pursuing B.Tech</span> at{" "}
+          <br className="visible sm:hidden" />{" "}
           <span className="font-bold weight text-green-400">
-            Vellore Institute of Technology <br className="sm:hidden visible" />
+            Vellore Institute of Technology,
+            <br className="sm:hidden visible" />
           </span>{" "}
           Vellore, Tamil Nadu. <br /> My specialization is{" "}
           <br className="sm:hidden visible" />{" "}

@@ -29,7 +29,7 @@ export default function About() {
           About me
         </h2>
         <div className="lg:grid lg:grid-cols-2 flex flex-col sm:gap-x-20 sm:max-w-[75rem] w-[fit]">
-          <div className="mb-3 text-pretty sm:text-start sm:flex sm:flex-col sm:gap-y-5 sm:text-2xl text-lg px-6">
+          <div className="mb-3 text-justify sm:text-start sm:flex sm:flex-col sm:gap-y-5 sm:text-2xl text-lg px-6">
             <div className="sm:space-y-6 space-y-4">
               <div className="flex items-start gap-4">
                 <p className="leading-relaxed">
@@ -41,12 +41,12 @@ export default function About() {
               </div>
               <div className="flex items-start gap-4">
                 <p className="leading-relaxed">
-                  💻 I specialize in the{" "}
+                  💻 I am proficient in the{" "}
                   <b className="weight text-green-400">MERN stack</b> technology{" "}
                   <i>(MongoDB, Express.js, React, Node.js).</i> I have also
                   learned{" "}
                   <b className="weight text-green-400">Python, C++, and Java</b>{" "}
-                  as part of my curriculum.
+                  programming languages as part of my curriculum.
                 </p>
               </div>
               <div className="flex items-start gap-4">
@@ -82,7 +82,7 @@ export default function About() {
                   and creating{" "}
                   <b className="weight text-green-400">impactful projects </b>
                   through{" "}
-                  <b className="text-green-400 weight">web development</b>. It’s
+                  <b className="text-green-400 weight">web development.</b> It’s
                   this relentless pursuit of knowledge and{" "}
                   <b className="weight text-green-400">hands-on learning</b>{" "}
                   that fuels my desire to provide meaningful contributions to
