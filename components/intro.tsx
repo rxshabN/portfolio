@@ -60,8 +60,8 @@ export default function Intro() {
           <br className="visible sm:hidden" />{" "}
           <span className="font-bold weight text-green-400">
             Vellore Institute of Technology,
-            <br className="sm:hidden visible" />
           </span>{" "}
+          <br className="sm:hidden visible" />
           Vellore, Tamil Nadu. <br /> My specialization is{" "}
           <br className="sm:hidden visible" />{" "}
           <span className="font-bold text-green-400 weight">MERN Stack</span>{" "}
