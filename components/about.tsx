@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import React from "react";
 import { useSectionInView } from "@/lib/hooks";
-import Image from "next/image";
 
 export default function About() {
   const { ref } = useSectionInView("About", 0.75);
