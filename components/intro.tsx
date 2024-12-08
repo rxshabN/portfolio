@@ -119,7 +119,7 @@ export default function Intro() {
             <BsArrowRight />
           </motion.div>
         </Link>
-        <div className="flex flex-row sm:flex-nowrap flex-wrap sm:justify-normal justify-center gap-y-2 sm:gap-y-0 gap-x-2 mx-6 sm:mx-0">
+        <div className="flex flex-row sm:flex-nowrap flex-wrap sm:justify-normal justify-center gap-y-2 sm:gap-y-0 gap-x-2 mx-2 sm:mx-0">
           <Link
             href="https://www.linkedin.com/in/rishab-nagwani-53a37628a"
             rel="noopener noreferrer"
