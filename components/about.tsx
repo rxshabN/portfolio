@@ -61,17 +61,6 @@ export default function About() {
                   </b>
                 </p>
               </div>
-              <div className="flex items-start gap-4">
-                <Image
-                  src="/logo.jpg"
-                  alt="image of logo"
-                  quality={100}
-                  width={450}
-                  height={250}
-                  priority={true}
-                  className="sm:h-[250px] sm:w-[450px] h-40 w-80 rounded-3xl object-cover shadow-xl"
-                />
-              </div>
             </div>
           </div>
 

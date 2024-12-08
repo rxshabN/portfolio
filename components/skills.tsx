@@ -62,7 +62,7 @@ export default function Skills() {
             animate={hasAnimated ? "animate" : "initial"}
             viewport={{ once: true }}
             custom={index}
-            className="hover:bg-[#395388] cursor-default transition-colors flex flex-col items-center justify-center bg-blue-500/[0.2] border border-black/[0.1] rounded-xl sm:px-5 sm:py-3 px-3 py-3 shadow-md"
+            className="hover:bg-[#7ea7e1]/60 cursor-default transition-colors flex flex-col items-center justify-center bg-[#4d8bd6]/[0.47] border border-black/[0.1] rounded-xl sm:px-5 sm:py-3 px-3 py-3 shadow-md"
           >
             <Image
               src={skill.imageUrl}

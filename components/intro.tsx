@@ -129,8 +129,9 @@ export default function Intro() {
             <Image
               src="/linkedin.ico"
               alt="image of linkedin icon"
-              height={23}
-              width={23}
+              height={25}
+              width={25}
+              quality={100}
             />
           </Link>
           <Link
@@ -142,8 +143,9 @@ export default function Intro() {
             <Image
               src="/github.ico"
               alt="image of github icon"
-              height={23}
-              width={23}
+              height={25}
+              width={25}
+              quality={100}
             />
           </Link>
           <Link
@@ -155,8 +157,9 @@ export default function Intro() {
             <Image
               src="/gmail.ico"
               alt="image of gmail icon"
-              height={23}
-              width={23}
+              height={25}
+              quality={100}
+              width={25}
             />
           </Link>
           <Link
@@ -168,8 +171,9 @@ export default function Intro() {
             <Image
               src="/insta.png"
               alt="image of insta icon"
-              height={23}
-              width={23}
+              height={25}
+              width={25}
+              quality={100}
             />
           </Link>
           <Link
@@ -181,10 +185,26 @@ export default function Intro() {
             <Image
               src="/peerlist.ico"
               alt="image of peerlist icon"
-              height={23}
-              width={23}
+              height={25}
+              quality={100}
+              width={25}
             />
           </Link>
+          {/* enable this when medium article is published */}
+          {/* <Link
+            href="https://medium.com/@nagwanirishab"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
+          >
+            <Image
+              src="/medium.webp"
+              alt="image of medium icon"
+              quality={100}
+              height={25}
+              width={25}
+            />
+          </Link> */}
         </div>
       </motion.div>
     </>
