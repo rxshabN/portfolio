@@ -49,15 +49,14 @@ export default function Footer() {
           >
             <span>Peerlist</span>
           </Link>
-          {/* enable this when medium article is published */}
-          {/* <Link
+          <Link
             href="https://medium.com/@nagwanirishab"
             target="_blank"
             rel="noopener noreferrer"
             className="no-underline"
           >
             <span>Medium</span>
-          </Link> */}
+          </Link>
         </div>
       </div>
     </footer>

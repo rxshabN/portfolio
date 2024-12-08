@@ -190,8 +190,7 @@ export default function Intro() {
               width={25}
             />
           </Link>
-          {/* enable this when medium article is published */}
-          {/* <Link
+          <Link
             href="https://medium.com/@nagwanirishab"
             rel="noopener noreferrer"
             target="_blank"
@@ -204,7 +203,7 @@ export default function Intro() {
               height={25}
               width={25}
             />
-          </Link> */}
+          </Link>
         </div>
       </motion.div>
     </>
