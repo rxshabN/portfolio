@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "Rishab Nagwani | Portfolio",
+  "short_name": "RN-Portfolio",
   "icons": [
     {
       "src": "/favicon.ico/web-app-manifest-192x192.png",
@@ -15,7 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
+  "theme_color": "#0a192f",
+  "background_color": "#0a192f",
   "display": "standalone"
 }
