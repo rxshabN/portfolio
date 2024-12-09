@@ -44,7 +44,7 @@ export default function About() {
                   <b className="weight text-green-400">MERN stack</b>{" "}
                   (full-stack) technology which inclues MongoDB for database
                   management, ExpressJS for server development, React for
-                  front-end designing and Node.js for background environment
+                  front-end designing and Node.js for runtime environment
                   execution of JavaScript. I have also learned{" "}
                   <b className="weight text-green-400">Python, C++, and Java</b>{" "}
                   programming languages as part of my curriculum.
