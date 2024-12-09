@@ -28,7 +28,7 @@ export default function About() {
           About me
         </h2>
         <div className="lg:grid lg:grid-cols-2 flex flex-col sm:gap-x-20 sm:max-w-[75rem] w-[fit]">
-          <div className="mb-3 text-justify sm:text-start sm:flex sm:flex-col sm:gap-y-5 sm:text-2xl text-lg px-2.5">
+          <div className="mb-3 text-justify sm:flex sm:flex-col sm:gap-y-5 sm:text-2xl text-lg px-2.5">
             <div className="sm:space-y-6 space-y-4">
               <div className="flex items-start gap-4">
                 <p className="leading-relaxed">
@@ -44,7 +44,7 @@ export default function About() {
                   <b className="weight text-green-400">MERN stack</b>{" "}
                   (full-stack) technology which inclues MongoDB for database
                   management, ExpressJS for server development, React for
-                  front-end designing and Node.js for runtime environment
+                  front-end designing and Node.js for background environment
                   execution of JavaScript. I have also learned{" "}
                   <b className="weight text-green-400">Python, C++, and Java</b>{" "}
                   programming languages as part of my curriculum.
