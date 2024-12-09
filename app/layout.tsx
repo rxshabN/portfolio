@@ -90,7 +90,7 @@ export default function RootLayout({
           sizes="180x180"
           href="/favicon.ico/apple-touch-icon.png"
         />
-        <meta name="apple-mobile-web-app-title" content="Portfolio" />
+        <meta name="apple-mobile-web-app-title" content="RN-Portfolio" />
         <link rel="manifest" href="/favicon.ico/site.webmanifest" />
       </head>
       <body className="antialiased bg-[#0a192f] text-white relative sm:pt-28">
