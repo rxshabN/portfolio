@@ -9,10 +9,6 @@
       }
     },
     {
-      "src": "/favicon.ico",
-      "dest": "/favicon/favicon.ico"
-    },
-    {
       "src": "/(.*)\\.(js|css|png|jpg|jpeg|svg|ico|webp|woff|woff2|ttf|otf|eot|mp4|webm|txt|json|wasm)$",
       "headers": {
         "Cache-Control": "public, max-age=1209600, immutable"

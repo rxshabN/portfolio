@@ -80,22 +80,22 @@ export default function RootLayout({
         <link
           rel="icon"
           type="image/png"
-          href="/favicon.ico/favicon-96x96.png?v=2"
+          href="/icon.ico/favicon-96x96.png?v=2"
           sizes="96x96"
         />
         <link
           rel="icon"
           type="image/svg+xml"
-          href="/favicon.ico/favicon.svg?v=2"
+          href="/icon.ico/favicon.svg?v=2"
         />
-        <link rel="shortcut icon" href="/favicon.ico/favicon.ico?v=2" />
+        <link rel="shortcut icon" href="/icon.ico/favicon.ico?v=2" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="/favicon.ico/apple-touch-icon.png?v=2"
+          href="/icon.ico/apple-touch-icon.png?v=2"
         />
         <meta name="apple-mobile-web-app-title" content="Portfolio" />
-        <link rel="manifest" href="/favicon.ico/site.webmanifest?v=2" />
+        <link rel="manifest" href="/icon.ico/site.webmanifest?v=2" />
       </head>
       <body className="antialiased bg-[#0a192f] text-white relative sm:pt-28">
         <div className="lg:block hidden bg-[#0e1d2d]/[0.3] absolute -z-10 top-[-24rem] right-[-10rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
