@@ -88,7 +88,7 @@ export default function RootLayout({
           type="image/svg+xml"
           href="/icon.ico/favicon.svg?v=2"
         />
-        <link rel="shortcut icon" href="/favicon.ico?v=2" />
+        <link rel="shortcut icon" href="https://www.rishabnagwani.tech/favicon.ico?v=3" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
