@@ -2,6 +2,7 @@ import About from "@/components/about";
 import Certificate from "@/components/certificate";
 import Contact from "@/components/contact";
 import Divider from "@/components/divider";
+import Divider1 from "@/components/divider copy";
 import Education from "@/components/education";
 import Footer from "@/components/footer";
 import Intro from "@/components/intro";
@@ -13,7 +14,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center px-4">
       <Intro />
-      <Divider />
+      <Divider1 />
       <About />
       <Divider />
       <Education />
