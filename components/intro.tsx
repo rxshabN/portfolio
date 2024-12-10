@@ -7,6 +7,8 @@ import React, { useState } from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import GradualSpacing from "@/components/ui/gradual-spacing";
+import GradualSpacing1 from "@/components/ui/gradual-spacing copy";
 
 export default function Intro() {
   const { setTimeOfLastClick, setActiveSection } = useActiveSectionContext();
@@ -24,7 +26,7 @@ export default function Intro() {
             animate={{ scale: 1, opacity: 1 }}
             transition={{
               type: "tween",
-              duration: 0.2,
+              duration: 0.35,
             }}
           >
             <Image
@@ -39,39 +41,56 @@ export default function Intro() {
           </motion.div>
         </div>
         <motion.h1
-          className="mb-10 mt-4 px-1 text-center sm:text-center text-2xl font-medium !leading-[1.5] sm:text-[2rem]"
+          className="sm:hidden visible mb-10 mt-4 px-1 text-center text-2xl !leading-[1.5]"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.35,
+          }}
         >
-          I,{" "}
-          <span className="font-bold text-green-400 weight">
-            Rishab Nagwani,
-          </span>{" "}
-          am a <br className="sm:hidden visible" />{" "}
-          <span className="font-bold text-green-400 weight">
-            Full-Stack Web Developer
-          </span>{" "}
-          focused on building <br className="sm:hidden visible" />{" "}
-          <span className="font-bold text-green-400 weight">
-            real world web applications.
-          </span>
-          <br />I am <span className="sm:inline hidden">currently</span> a
-          sophomore <span className="hidden sm:inline">pursuing B.Tech</span> at{" "}
-          <br className="visible sm:hidden" />{" "}
-          <span className="font-bold weight text-green-400">
-            Vellore Institute of Technology,
-          </span>{" "}
-          <br className="sm:hidden visible" />
-          Vellore, Tamil Nadu. <br /> My specialization is{" "}
-          <br className="sm:hidden visible" />{" "}
-          <span className="font-bold text-green-400 weight">MERN Stack</span>{" "}
-          Development.
+          <div>
+            I,{" "}
+            <span className="font-bold text-green-400 weight">
+              Rishab Nagwani,
+            </span>{" "}
+            am a <br className="sm:hidden visible" />{" "}
+            <span className="font-bold text-green-400 weight">
+              Full-Stack Web Developer
+            </span>{" "}
+            focused on building <br className="sm:hidden visible" />{" "}
+            <span className="font-bold text-green-400 weight">
+              real world web applications.
+            </span>
+            <br />I am <span className="sm:inline hidden">currently</span> a
+            sophomore <span className="hidden sm:inline">pursuing B.Tech</span>{" "}
+            at <br className="visible sm:hidden" />{" "}
+            <span className="font-bold weight text-green-400">
+              Vellore Institute of Technology,
+            </span>{" "}
+            <br className="sm:hidden visible" />
+            Vellore, Tamil Nadu. <br /> My specialization is{" "}
+            <br className="sm:hidden visible" />{" "}
+            <span className="font-bold text-green-400 weight">MERN Stack</span>{" "}
+            Development.
+          </div>
         </motion.h1>
+        <div className="sm:block hidden mb-10 mt-4 px-1 text-center !leading-[1.5]">
+          <GradualSpacing
+            text="Rishab Nagwani"
+            className="weight font-bold text-[6.65rem]"
+          ></GradualSpacing>
+          <div className="space-x-5 text-[2.05rem] text-center flex flex-row justify-center items-center">
+            <GradualSpacing1
+              text="Full Stack Web Developer &#9679; VIT Vellore"
+              className="text-green-400 weight font-bold"
+            ></GradualSpacing1>
+          </div>
+        </div>
       </section>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1 }}
+        transition={{ duration: 0.3, delay: 0.2 }}
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium mb-[2vh] sm:mb-0"
       >
         <a

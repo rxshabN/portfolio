@@ -14,6 +14,9 @@ export default function About() {
 
   return (
     <>
+      <h2 className="weight sm:text-7xl text-5xl font-medium capitalize mb-8">
+        About me
+      </h2>
       <motion.section
         ref={(el) => {
           ref(el);
@@ -24,9 +27,6 @@ export default function About() {
         transition={{ delay: 0.125 }}
         className="relative sm:text-lg text-sm poppins cursor-default max-w-[75rem] text-justify leading-8 flex flex-col items-center scroll-mt-28"
       >
-        <h2 className="weight sm:text-7xl text-5xl font-medium capitalize mb-8">
-          About me
-        </h2>
         <div className="lg:grid lg:grid-cols-2 flex flex-col sm:gap-x-20 sm:max-w-[75rem] w-[fit]">
           <div className="mb-3 text-justify sm:flex sm:flex-col sm:gap-y-5 sm:text-2xl text-lg px-2.5">
             <div className="sm:space-y-6 space-y-4">
