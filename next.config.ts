@@ -1,21 +1,7 @@
 import { withSentryConfig } from "@sentry/nextjs";
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  async headers() {
-    return [
-      {
-        source: "/(.*)", // Apply to all routes
-        headers: [
-          {
-            key: "Strict-Transport-Security",
-            value: "max-age=63072000; includeSubDomains; preload", // HSTS configuration
-          },
-        ],
-      },
-    ];
-  },
-};
+const nextConfig: NextConfig = {};
 
 export default withSentryConfig(nextConfig, {
   // For all available options, see:
