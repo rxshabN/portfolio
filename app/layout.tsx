@@ -39,6 +39,7 @@ export const metadata = {
         "http://www.linkedin.com/in/rishab-nagwani-53a37628a",
         "https://github.com/rxshabN",
         "https://www.instagram.com/ri_shab.n/profilecard/?igsh=MTd2ZmRlczlwZHlzMg==",
+"https://peerlist.io/rishabnagwani",
       ],
       description:
         "I am Rishab Nagwani, a full-stack web developer focused on building real-world web applications.",
