@@ -18,7 +18,7 @@ export default function Intro() {
     <>
       <section
         id="about"
-        className="poppins scroll-mt-28 cursor-default sm:max-w-[90rem] max-w-[70rem] lg:h-[30rem] sm:flex sm:flex-row items-center sm:justify-evenly justify-between sm:mr-[6.5] sm:space-x-7 sm:mb-0 pt-8 sm:pt-0"
+        className="poppins scroll-mt-28 cursor-default lg:max-w-[90rem] max-w-[70rem] lg:h-[30rem] lg:flex lg:flex-row items-center lg:justify-evenly justify-between lg:mr-[6.5] lg:space-x-7 sm:mb-0 pt-8 sm:pt-0"
       >
         <div className="flex items-center justify-center">
           <motion.div
@@ -41,7 +41,7 @@ export default function Intro() {
           </motion.div>
         </div>
         <motion.h1
-          className="sm:hidden visible mb-10 mt-4 px-1 text-center text-2xl !leading-[1.5]"
+          className="lg:hidden visible mb-10 mt-4 px-1 text-center text-2xl !leading-[1.5]"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
@@ -74,7 +74,7 @@ export default function Intro() {
             Development.
           </div>
         </motion.h1>
-        <div className="sm:block hidden mb-10 mt-4 px-1 text-center !leading-[1.5]">
+        <div className="lg:block hidden mb-10 mt-4 px-1 text-center !leading-[1.5]">
           <GradualSpacing
             text="Rishab Nagwani"
             className="weight font-bold text-[6.65rem]"
