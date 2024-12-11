@@ -4,7 +4,7 @@
     {
       "src": "http://(.*)",
       "headers": {
-        "Location": "https://$1"
+        "Location": "https://www.$1"
       },
       "status": 301
     },
