@@ -2,6 +2,24 @@
   "version": 2,
   "routes": [
     {
+      "routes": [
+        {
+          "src": "http://(.*)",
+          "headers": {
+            "Location": "https://$1"
+          },
+          "status": 301
+        },
+        {
+          "src": "https://rishabnagwani.tech/(.*)",
+          "headers": {
+            "Location": "https://www.rishabnagwani.tech/$1"
+          },
+          "status": 301
+        }
+      ]
+    },
+    {
       "src": "/(.*)\\.pdf$",
       "headers": {
         "Content-Type": "application/pdf",
