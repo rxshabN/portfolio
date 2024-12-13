@@ -68,7 +68,7 @@ export const organizationData = [
     title: "Society for Industrial and Applied Mathematics",
     location: "VIT Vellore",
     description:
-      "I am a core Member of SIAM-VIT Chapter. I am currently part of the technical team developing the official website.",
+      "I am a Core Member of SIAM-VIT Chapter. I am currently part of the technical team developing the official website.",
     icon: React.createElement(BsBriefcase),
     date: "February 2024 - Present",
   },
@@ -76,7 +76,7 @@ export const organizationData = [
     title: "VITrendZ",
     location: "VIT Vellore",
     description:
-      "I am a full stack web developer at VITrendZ. I am a member of the core team incharge of redeveloping the landing page of VITrendZ website.",
+      "I am a full stack web developer at VITrendZ. I am a member of the core team in charge of redeveloping the landing page of VITrendZ website.",
     icon: React.createElement(FaLaptopCode),
     date: "October 2024 - Present",
   },
@@ -162,7 +162,7 @@ export const certificateData = [
   {
     title: "Career Essentials in Software Development",
     description:
-      "This certificate validates my expertise in software development essentials, including leaarning basics of the essential languages such as Python, C/C++, Java, Kotlin, Rust, etc. I also learned about system design and the software lifecycle.",
+      "This certificate validates my expertise in software development essentials, including learning basics of the essential languages such as Python, C/C++, Java, Kotlin, Rust, etc. I also learned about system design and the software lifecycle.",
     tags: [
       "Python",
       "C/C++",
@@ -180,7 +180,7 @@ export const certificateData = [
       "This certificate validates my expertise in Generative AI, including learning about the basics of Generative AI, GPT-3, LLM, Neural Networks, and Deep Learning.",
     tags: [
       "Machine Learning",
-      "Deep Leaning",
+      "Deep Learning",
       "AI",
       "GPT",
       "LLM",

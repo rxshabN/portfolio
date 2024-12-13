@@ -42,7 +42,7 @@ export default function About() {
                 <p className="leading-relaxed">
                   💻 I am proficient in the{" "}
                   <b className="weight text-green-400">MERN stack</b>{" "}
-                  (full-stack) technology which inclues MongoDB for database
+                  (full-stack) technology which includes MongoDB for database
                   management, ExpressJS for server development, React for
                   front-end designing and Node.js for runtime environment
                   execution of JavaScript. I have also learned{" "}
@@ -52,7 +52,7 @@ export default function About() {
               </div>
               <div className="flex items-start gap-4">
                 <p className="leading-relaxed">
-                  🌐 I’ve developed a wide range of projects, from{" "}
+                  🌐 I have developed a wide range of projects, from{" "}
                   <b className="weight text-green-400">simple SPAs</b> to
                   dynamic{" "}
                   <b className="weight text-green-400">
@@ -67,13 +67,13 @@ export default function About() {
             <div className="sm:space-y-6 space-y-4">
               <div className="flex items-start gap-4">
                 <p className="leading-relaxed">
-                  I’m extremely passionate about developing solutions for{" "}
+                  I am extremely passionate about developing solutions for{" "}
                   <b className="weight text-green-400">real-world challenges</b>{" "}
                   and creating{" "}
                   <b className="weight text-green-400">impactful projects </b>
                   through{" "}
-                  <b className="text-green-400 weight">web development.</b> It’s
-                  this relentless pursuit of knowledge and{" "}
+                  <b className="text-green-400 weight">web development.</b> It
+                  is this relentless pursuit of knowledge and{" "}
                   <b className="weight text-green-400">hands-on learning</b>{" "}
                   that fuels my desire to provide meaningful contributions to
                   the tech community and to society.
@@ -86,7 +86,7 @@ export default function About() {
                   <b className="weight text-green-400">
                     networking and collaboration
                   </b>{" "}
-                  to envision and create something extraordinary. Whether it’s{" "}
+                  to envision and create something extraordinary. Whether it is{" "}
                   <b className="weight text-green-400">
                     discussing new technologies
                   </b>{" "}
@@ -94,7 +94,7 @@ export default function About() {
                   <b className="weight text-green-400">
                     building projects together,
                   </b>{" "}
-                  I’m always eager to connect with like-minded individuals and
+                  I am always eager to connect with like-minded individuals and
                   grow in the process!
                 </p>
               </div>
