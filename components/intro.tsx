@@ -14,6 +14,12 @@ export default function Intro() {
   const { setTimeOfLastClick, setActiveSection } = useActiveSectionContext();
   const [isHovered, setIsHovered] = useState(false);
   const [isHovered1, setIsHovered1] = useState(false);
+  const handleScroll = (id: string) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <>
       <section
@@ -114,12 +120,12 @@ export default function Intro() {
             <HiDownload />
           </motion.div>
         </a>
-        <Link
-          href="#contact"
+        <button
           className="weight group bg-white text-gray-900 px-7 py-3 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
           onMouseEnter={() => setIsHovered1(true)}
           onMouseLeave={() => setIsHovered1(false)}
           onClick={() => {
+            handleScroll("contact");
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
           }}
@@ -137,7 +143,7 @@ export default function Intro() {
           >
             <BsArrowRight />
           </motion.div>
-        </Link>
+        </button>
         <div className="flex flex-row sm:flex-nowrap flex-wrap sm:justify-normal justify-center gap-y-2 sm:gap-y-0 gap-x-2 mx-2 sm:mx-0">
           <Link
             href="https://www.linkedin.com/in/rishab-nagwani-53a37628a"
