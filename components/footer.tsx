@@ -10,7 +10,7 @@ export default function Footer() {
         </p>
         <div className="mt-2 -mb-5 flex justify-center gap-6 text-sm sm:flex-nowrap flex-wrap w-[21.5rem]">
           <Link
-            href="https://www.linkedin.com/in/rishab-nagwani-53a37628a"
+            href="https://www.linkedin.com/in/rishabnagwani"
             target="_blank"
             rel="noopener noreferrer"
             className="no-underline"

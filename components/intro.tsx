@@ -146,7 +146,7 @@ export default function Intro() {
         </button>
         <div className="flex flex-row sm:flex-nowrap flex-wrap sm:justify-normal justify-center gap-y-2 sm:gap-y-0 gap-x-2 mx-2 sm:mx-0">
           <Link
-            href="https://www.linkedin.com/in/rishab-nagwani-53a37628a"
+            href="https://www.linkedin.com/in/rishabnagwani"
             rel="noopener noreferrer"
             target="_blank"
             className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"

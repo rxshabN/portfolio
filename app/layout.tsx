@@ -36,10 +36,10 @@ export const metadata = {
       name: "Rishab Nagwani",
       url: "https://www.rishabnagwani.tech",
       sameAs: [
-        "http://www.linkedin.com/in/rishab-nagwani-53a37628a",
+        "http://www.linkedin.com/in/rishabnagwani",
         "https://github.com/rxshabN",
         "https://www.instagram.com/ri_shab.n/profilecard/?igsh=MTd2ZmRlczlwZHlzMg==",
-"https://peerlist.io/rishabnagwani",
+        "https://peerlist.io/rishabnagwani",
       ],
       description:
         "I am Rishab Nagwani, a full-stack web developer focused on building real-world web applications.",
@@ -89,7 +89,10 @@ export default function RootLayout({
           type="image/svg+xml"
           href="/icon.ico/favicon.svg?v=3"
         />
-        <link rel="shortcut icon" href="https://www.rishabnagwani.tech/favicon.ico?v=3" />
+        <link
+          rel="shortcut icon"
+          href="https://www.rishabnagwani.tech/favicon.ico?v=3"
+        />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -97,7 +100,10 @@ export default function RootLayout({
         />
         <meta name="apple-mobile-web-app-title" content="Portfolio" />
         <link rel="manifest" href="/icon.ico/site.webmanifest?v=3" />
-<meta name="google-site-verification" content="YEIWDHNtYf-bNZUdTXepfWGP1lVaDSatr039KxTztW8" />
+        <meta
+          name="google-site-verification"
+          content="YEIWDHNtYf-bNZUdTXepfWGP1lVaDSatr039KxTztW8"
+        />
       </head>
       <body className="antialiased bg-[#0a192f] text-white relative sm:pt-28">
         <div className="lg:block hidden bg-[#0e1d2d]/[0.3] absolute -z-10 top-[-24rem] right-[-10rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
