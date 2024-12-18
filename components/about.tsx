@@ -67,7 +67,7 @@ export default function About() {
             <div className="sm:space-y-6 space-y-4">
               <div className="flex items-start gap-4">
                 <p className="leading-relaxed">
-                  I am extremely passionate about developing solutions for{" "}
+                  I am extremely enthusiastic about developing solutions for{" "}
                   <b className="weight text-green-400">real-world challenges</b>{" "}
                   and creating{" "}
                   <b className="weight text-green-400">impactful projects </b>
