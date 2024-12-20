@@ -32,10 +32,10 @@ export default function About() {
             <div className="sm:space-y-6 space-y-4">
               <div className="flex items-start gap-4">
                 <p className="leading-relaxed">
-                  ⭐ <span className="sm:hidden visible"> Hi there, </span>I am
+                  ⭐ <span className="sm:hidden visible"> Hi there! </span>I am
                   a passionate{" "}
                   <b className="weight text-green-400">Web Developer</b> from
-                  Mumbai.
+                  Mumbai, India.
                 </p>
               </div>
               <div className="flex items-start gap-4">
