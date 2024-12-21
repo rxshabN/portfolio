@@ -26,10 +26,21 @@ export default function Certificate() {
       <motion.h2
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        className="sm:text-7xl text-5xl font-medium capitalize mb-5 text-center weight cursor-default"
+        className="sm:text-7xl text-5xl font-medium capitalize mb-14 text-center weight cursor-default"
       >
         Certificates
       </motion.h2>
+      <h3 className="poppins text-center text-xl font-normal cursor-default -mt-6 mb-10 px-5 sm:px-0 ">
+        To view all my certificates{" "}
+        <Link
+          href="https://www.linkedin.com/in/rishabnagwani/details/certifications/"
+          className="underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          click here.
+        </Link>
+      </h3>
       <VerticalTimeline lineColor="">
         {certificateData.map((certificate, index) => (
           <React.Fragment key={index}>
