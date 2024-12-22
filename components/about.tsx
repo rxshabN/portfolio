@@ -41,11 +41,18 @@ export default function About() {
               <div className="flex items-start gap-4">
                 <p className="leading-relaxed">
                   💻 I am proficient in the{" "}
-                  <b className="weight text-green-400">MERN stack</b>{" "}
-                  (full-stack) technology which includes MongoDB for database
-                  management, ExpressJS for server development, React for
-                  front-end designing and Node.js for runtime environment
-                  execution of JavaScript. I have also learned{" "}
+                  <b className="weight text-green-400">
+                    full stack technologies
+                  </b>{" "}
+                  including{" "}
+                  <span className="hidden sm:inline">but not limited to</span>{" "}
+                  <b className="weight text-green-400">MongoDB</b> for database
+                  management, <b className="weight text-green-400">ExpressJS</b>{" "}
+                  for server development,{" "}
+                  <b className="weight text-green-400">React</b> for front-end
+                  designing and <b className="weight text-green-400">Node.js</b>{" "}
+                  for executing JavaScript in a runtime environment. I have also
+                  learned{" "}
                   <b className="weight text-green-400">Python, C++, and Java</b>{" "}
                   programming languages as part of my curriculum.
                 </p>
