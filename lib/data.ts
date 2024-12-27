@@ -1,7 +1,7 @@
 import React from "react";
 import discord from "@/public/discord.png";
 import patreon from "@/public/patreon.png";
-import spotify from "@/public/spotify.png";
+import project from "@/public/project-manager.png";
 import password from "@/public/password.png";
 import { BsBriefcase, BsGithub, BsMicrosoft } from "react-icons/bs";
 import { SiMongodb } from "react-icons/si";
@@ -84,6 +84,23 @@ export const organizationData = [
 
 export const projectsData = [
   {
+    title: "Project Manager",
+    description:
+      "Create, edit, and manage projects and tasks using an interactive drag-and-drop Kanban board. Users can add other users with an invite link provided in the workspace settings. It is also a PWA so that users can install it as an app on their devices.",
+    tags: [
+      "Next.js",
+      "React",
+      "Appwrite",
+      "Hono.js",
+      "Nuqs",
+      "Tanstack",
+      "shadcn",
+    ],
+    imageUrl: project,
+    repolink: "https://github.com/rxshabN/project-manager",
+    link: "https://project-manager-rn.vercel.app",
+  },
+  {
     title: "Real-time Chat App",
     description:
       "A fully functional real-time chat application inspired by Discord. This project provides messaging via WebSockets and audio/video chat capabilities using LiveKit, with user authentication powered by Clerk. Users can add members via invite links.",
@@ -116,15 +133,6 @@ export const projectsData = [
     imageUrl: password,
     repolink: "https://github.com/rxshabN/Password-Manager---mongodb",
     link: "https://rxshabn.github.io/Password-Manager---mongodb",
-  },
-  {
-    title: "Spotify Clone",
-    description:
-      "A clone of Spotify using HTML, CSS and JS. It is fully functional with multiple songs uploaded on the server. Users can seek, skip and play/pause songs. Only twenty songs are available on the website due to storage limitations.",
-    tags: ["HTML5", "CSS3", "JavaScript", "Music", "Spotify"],
-    imageUrl: spotify,
-    repolink: "https://github.com/rxshabN/Spotify-Clone",
-    link: "https://spotifyrn.freewebhostmost.com",
   },
 ] as const;
 
@@ -210,6 +218,11 @@ export const skillsData = [
   "Sentry",
   "Postman",
   "WebSockets",
+  "AlpineJS",
+  "Appwrite",
+  "Shadcn",
+  "tRPC",
+  "HonoJS",
 ] as const;
 
 export const skillsImages = skillsData.map((skill) => ({
