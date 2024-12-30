@@ -222,7 +222,7 @@ export const skillsData = [
   "Sentry",
   "Postman",
   "WebSockets",
-  "tRPC",
+  // "tRPC",
 ] as const;
 
 export const skillsImages = skillsData.map((skill) => ({
