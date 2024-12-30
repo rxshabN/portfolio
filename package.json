@@ -34,7 +34,7 @@
     "react-responsive": "^10.0.0",
     "react-vertical-timeline-component": "^3.6.0",
     "resend": "^4.0.1",
-    "tailwind-merge": "^2.5.5",
+    "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
