@@ -27,9 +27,13 @@ export default function Skills() {
         </span>
       </motion.h2>
       <ul className="sm:flex sm:flex-wrap grid grid-cols-2 mx-7 sm:mx-0 justify-center gap-6">
-        {skillsImages.map((skill, index) => (
-          <li className="hover:bg-[#7ea7e1]/60 cursor-default transition-colors flex flex-col items-center justify-center bg-[#4d8bd6]/[0.47] border border-black/[0.1] rounded-xl sm:px-5 sm:py-3 px-3 py-3 shadow-md">
+        {skillsImages.map((skill) => (
+          <li
+            key={skill.name}
+            className="hover:bg-[#7ea7e1]/60 cursor-default transition-colors flex flex-col items-center justify-center bg-[#4d8bd6]/[0.47] border border-black/[0.1] rounded-xl sm:px-5 sm:py-3 px-3 py-3 shadow-md"
+          >
             <Image
+              key={skill.name}
               src={skill.imageUrl}
               alt="logo of tech framework"
               width={100}
