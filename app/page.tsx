@@ -19,13 +19,13 @@ export default function Home() {
       <Divider />
       <Education />
       <Divider />
-      <Skills />
-      <Divider />
       <Projects />
       <Divider />
       <Organization />
       <Divider />
       <Certificate />
+      <Divider />
+      <Skills />
       <Divider />
       <Contact />
       <Footer />
