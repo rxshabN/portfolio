@@ -1,9 +1,9 @@
 "use client";
 
 import { useSectionInView } from "@/lib/hooks";
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 import Image from "next/image";
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import { skillsImages } from "@/lib/data";
 
 export default function Skills() {
