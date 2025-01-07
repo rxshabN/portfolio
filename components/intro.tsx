@@ -188,7 +188,7 @@ export default function Intro() {
             />
           </Link>
           <Link
-            href="https://www.instagram.com/ri_shab.n/profilecard/?igsh=MTd2ZmRlczlwZHlzMg=="
+            href="https://www.instagram.com/ri_shab.n"
             rel="noopener noreferrer"
             target="_blank"
             className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
