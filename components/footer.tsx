@@ -34,7 +34,7 @@ export default function Footer() {
             <span>Email</span>
           </Link>
           <Link
-            href="https://www.instagram.com/ri_shab.n/profilecard/?igsh=MTd2ZmRlczlwZHlzMg=="
+            href="https://www.instagram.com/ri_shab.n"
             target="_blank"
             rel="noopener noreferrer"
             className="no-underline"
