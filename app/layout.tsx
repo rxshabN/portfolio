@@ -8,9 +8,9 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 export const metadata = {
   title: "Rishab Nagwani | Portfolio",
   description:
-    "Hi, I am Rishab Nagwani, a Full Stack Web Developer. I build web applications using Next.js and Node.js. Check out my portfolio to see my work.",
+    "Hi, I am Rishab Nagwani, a Full Stack Web App Developer. I build web applications using Next.js and Node.js. Check out my portfolio to see my work.",
   keywords:
-    "Rishab, Nagwani, Rishab Nagwani, RishabNagwani, rishabnagwani, nagwanirishab, NagwaniRishab, Full Stack Web Developer, Portfolio, React, Next.js, JavaScript, TypeScript, Web Development, MERN Stack, Node.js, Express.js, MongoDB, Tailwind CSS",
+    "Rishab, Nagwani, Rishab Nagwani, RishabNagwani, rishabnagwani, nagwanirishab, NagwaniRishab, Full Stack Web Developer, Full Stack Web App Developer, Portfolio, React, Next.js, JavaScript, TypeScript, Web Development, MERN Stack, Node.js, Express.js, MongoDB, Tailwind CSS",
   author: "Rishab Nagwani",
   alternates: {
     canonical: "https://www.rishabnagwani.tech",
@@ -18,7 +18,7 @@ export const metadata = {
   openGraph: {
     title: "Rishab Nagwani | Portfolio",
     description:
-      "Hi, I am Rishab Nagwani, a Full Stack Web Developer. I build web applications using Next.js and Node.js. Check out my portfolio to see my work.",
+      "Hi, I am Rishab Nagwani, a Full Stack Web App Developer. I build web applications using Next.js and Node.js. Check out my portfolio to see my work.",
     url: "https://www.rishabnagwani.tech",
     images: [
       {
@@ -42,8 +42,8 @@ export const metadata = {
         "https://peerlist.io/rishabnagwani",
       ],
       description:
-        "I am Rishab Nagwani, a full-stack web developer focused on building real-world web applications.",
-      jobTitle: "Full-Stack Web Developer",
+        "I am Rishab Nagwani, a full-stack web app developer focused on building real-world web applications.",
+      jobTitle: "Full-Stack Web App Developer",
       alumniOf: {
         "@type": "CollegeOrUniversity",
         name: "Vellore Institute of Technology",

@@ -76,7 +76,7 @@ export const organizationData = [
     title: "VITrendZ",
     location: "VIT Vellore",
     description:
-      "I am a full stack web developer at VITrendZ. I am a member of the core team in charge of redeveloping the landing page of VITrendZ website.",
+      "I am a full stack web app developer at VITrendZ. I am a member of the core team in charge of redeveloping the landing page of VITrendZ website.",
     icon: React.createElement(FaLaptopCode),
     date: "October 2024 - Present",
   },

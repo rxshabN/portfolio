@@ -34,7 +34,7 @@ export default function About() {
                 <p className="leading-relaxed">
                   ⭐ <span className="sm:hidden visible"> Hi there! </span>I am
                   a passionate{" "}
-                  <b className="weight text-green-400">Web Developer</b> from
+                  <b className="weight text-green-400">Web App Developer</b> from
                   Mumbai, India.
                 </p>
               </div>

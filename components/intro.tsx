@@ -61,7 +61,7 @@ export default function Intro() {
             </span>{" "}
             am a <br className="sm:hidden visible" />{" "}
             <span className="font-bold text-green-400 weight">
-              Full-Stack Web Developer
+              Full-Stack Web App Developer
             </span>{" "}
             focused on building <br className="sm:hidden visible" />{" "}
             <span className="font-bold text-green-400 weight">
@@ -87,7 +87,7 @@ export default function Intro() {
           ></GradualSpacing>
           <div className="space-x-5 text-[2.05rem] text-center flex flex-row justify-center items-center">
             <GradualSpacing1
-              text="Full Stack Web Developer &#9679; VIT Vellore"
+              text="Full Stack Web App Developer &#9679; VIT Vellore"
               className="text-green-400 weight font-bold"
             ></GradualSpacing1>
           </div>
