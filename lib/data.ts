@@ -8,7 +8,6 @@ import { SiMongodb } from "react-icons/si";
 import {
   FaBook,
   FaGraduationCap,
-  FaJsfiddle,
   FaJsSquare,
   FaLaptopCode,
 } from "react-icons/fa";
