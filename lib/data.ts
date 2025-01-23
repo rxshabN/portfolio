@@ -5,7 +5,13 @@ import project from "@/public/project-manager.png";
 import password from "@/public/password.png";
 import { BsBriefcase, BsGithub, BsMicrosoft } from "react-icons/bs";
 import { SiMongodb } from "react-icons/si";
-import { FaBook, FaGraduationCap, FaLaptopCode } from "react-icons/fa";
+import {
+  FaBook,
+  FaGraduationCap,
+  FaJsfiddle,
+  FaJsSquare,
+  FaLaptopCode,
+} from "react-icons/fa";
 
 export const links = [
   {
@@ -138,19 +144,19 @@ export const projectsData = [
 
 export const certificateData = [
   {
-    title: "GitHub Foundations",
+    title: "JavaScript Foundations",
     description:
-      "This certificate validates my expertise in measuring entry-level skills with GitHub basics like repositories, commits, branching, markdowns, and project management.",
+      "This certificate validates my expertise in JavaScript, including learning about objects, functions, classes, DOM event handling and asynchronous programming.",
     tags: [
-      "Build Pipeline",
-      "CI/CD",
-      "DevOps",
-      "GitHub",
-      "GitHub Actions",
-      "Release Management",
+      "JavaScript",
+      "Web Development",
+      "DOM Manipulation",
+      "Event Handling",
+      "Async/Await",
+      "JS Frameworks",
     ],
-    icon: React.createElement(BsGithub),
-    link: "https://www.credly.com/badges/2648eb05-a77e-491b-ada5-9d31fa36aeaa/linked_in_profile",
+    icon: React.createElement(FaJsSquare),
+    link: "https://www.linkedin.com/learning/certificates/752c01f171a7961eb5d42a304d7de8c90d83acee7c4b15a415b90f281ece43a8",
   },
   {
     title: "MongoDB Node.js Developer",
@@ -168,9 +174,24 @@ export const certificateData = [
     link: "https://learn.mongodb.com/c/f079MIzoTU-wv5aWTovhGg",
   },
   {
+    title: "GitHub Foundations",
+    description:
+      "This certificate validates my expertise in measuring entry-level skills with GitHub basics like repositories, commits, branching, markdowns, and project management.",
+    tags: [
+      "Build Pipeline",
+      "CI/CD",
+      "DevOps",
+      "GitHub",
+      "GitHub Actions",
+      "Release Management",
+    ],
+    icon: React.createElement(BsGithub),
+    link: "https://www.credly.com/badges/2648eb05-a77e-491b-ada5-9d31fa36aeaa/linked_in_profile",
+  },
+  {
     title: "Career Essentials in Software Development",
     description:
-      "This certificate validates my expertise in software development essentials, including learning basics of the essential languages such as Python, C/C++, Java, Kotlin, Rust, etc. I also learned about system design and the software lifecycle.",
+      "This certificate validates my expertise in software development essentials, including learning basics of the essential languages such as Python, C/C++, Java, Kotlin, Rust, etc along with system design and the software lifecycle.",
     tags: [
       "Python",
       "C/C++",
@@ -181,21 +202,6 @@ export const certificateData = [
     ],
     icon: React.createElement(BsMicrosoft),
     link: "https://www.linkedin.com/learning/certificates/08e4dbc86ea8ba148aad6a22afa280feb3d7916f95d83394e91b191500cfe1f1",
-  },
-  {
-    title: "Career Essentials in Generative AI",
-    description:
-      "This certificate validates my expertise in Generative AI, including learning about the basics of Generative AI, GPT-3, LLM, Neural Networks, and Deep Learning.",
-    tags: [
-      "Machine Learning",
-      "Deep Learning",
-      "AI",
-      "GPT",
-      "LLM",
-      "Neural Networks",
-    ],
-    icon: React.createElement(BsMicrosoft),
-    link: "https://www.linkedin.com/learning/certificates/7669cbb15bb6c588c0616524bec12bedd066e274a4aa0d0330d8a39e9ca2bd0d",
   },
 ] as const;
 
