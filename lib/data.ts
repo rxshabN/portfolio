@@ -119,7 +119,7 @@ export const projectsData = [
     ],
     imageUrl: discord,
     repolink: "https://github.com/rxshabN/discord-clone",
-    link: "https://discord-clone-rishabn.up.railway.app",
+    link: "https://discord-clone-rn.vercel.app",
   },
   {
     title: "Payment Gateway App",
