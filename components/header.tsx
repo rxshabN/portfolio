@@ -18,7 +18,7 @@ export default function Header() {
   };
 
   return (
-    <header className="z-999 relative hidden lg:block poppins">
+    <header className="z-[999] relative hidden lg:block poppins">
       <motion.div
         className="fixed top-0 left-1/2 -translate-x-1/2 h-[4.5rem] w-full rounded-none border border-gray-700 border-opacity-40 bg-[#1a2a7f]/[0.7] bg-opacity-80 shadow-lg shadow-green-400/[0.1] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.5rem] sm:w-[77%] sm:rounded-full"
         initial={{ y: -100, x: "-50%", opacity: 0 }}
@@ -39,7 +39,7 @@ export default function Header() {
           >
             <button
               onClick={() => handleScroll("about")}
-              className="cursor-pointer focus:outline-hidden weight"
+              className="cursor-pointer focus:outline-none weight"
             >
               Rishab Nagwani
             </button>

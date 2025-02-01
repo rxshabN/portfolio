@@ -47,7 +47,7 @@ export default function Intro() {
           </motion.div>
         </div>
         <motion.h1
-          className="lg:hidden visible mb-10 mt-4 px-1 text-center text-2xl leading-[1.5]!"
+          className="lg:hidden visible mb-10 mt-4 px-1 text-center text-2xl !leading-[1.5]"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
@@ -80,7 +80,7 @@ export default function Intro() {
             Development.
           </div>
         </motion.h1>
-        <div className="lg:block hidden mb-10 mt-4 px-1 text-center leading-[1.5]!">
+        <div className="lg:block hidden mb-10 mt-4 px-1 text-center !leading-[1.5]">
           <GradualSpacing
             text="Rishab Nagwani"
             className="weight font-bold text-[6.65rem]"
@@ -100,7 +100,7 @@ export default function Intro() {
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium mb-[2vh] sm:mb-0"
       >
         <a
-          className="weight border text-black border-black/10 cursor-pointer bg-green-400 px-7 py-3 flex items-center gap-2 rounded-full outline-hidden active:scale-90 transition"
+          className="weight border text-black border-black/10 cursor-pointer bg-green-400 px-7 py-3 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
           href="/resume.pdf"
           download="RishabN-Resume.pdf"
           onMouseEnter={() => setIsHovered(true)}
@@ -121,7 +121,7 @@ export default function Intro() {
           </motion.div>
         </a>
         <button
-          className="weight group bg-white text-gray-900 px-7 py-3 flex items-center gap-2 rounded-full outline-hidden active:scale-90 transition"
+          className="weight group bg-white text-gray-900 px-7 py-3 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
           onMouseEnter={() => setIsHovered1(true)}
           onMouseLeave={() => setIsHovered1(false)}
           onClick={() => {
@@ -149,7 +149,7 @@ export default function Intro() {
             href="https://www.linkedin.com/in/rishabnagwani"
             rel="noopener noreferrer"
             target="_blank"
-            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-hidden active:scale-90 transition"
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
           >
             <Image
               src="/linkedin.ico"
@@ -163,7 +163,7 @@ export default function Intro() {
             rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/rxshabN"
-            className="bg-white p-4 flex items-center text-gray-700 gap-2 rounded-full outline-hidden active:scale-90 transition"
+            className="bg-white p-4 flex items-center text-gray-700 gap-2 rounded-full outline-none active:scale-90 transition"
           >
             <Image
               src="/github.ico"
@@ -177,7 +177,7 @@ export default function Intro() {
             target="_blank"
             rel="noopener noreferrer"
             href="mailto:nagwanirishab@gmail.com"
-            className="bg-white p-4 flex items-center text-gray-700 gap-2 rounded-full outline-hidden active:scale-90 transition"
+            className="bg-white p-4 flex items-center text-gray-700 gap-2 rounded-full outline-none active:scale-90 transition"
           >
             <Image
               src="/gmail.ico"
@@ -191,7 +191,7 @@ export default function Intro() {
             href="https://www.instagram.com/ri_shab.n"
             rel="noopener noreferrer"
             target="_blank"
-            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-hidden active:scale-90 transition"
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
           >
             <Image
               src="/insta.png"
@@ -205,7 +205,7 @@ export default function Intro() {
             href="https://peerlist.io/rishabnagwani"
             rel="noopener noreferrer"
             target="_blank"
-            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-hidden active:scale-90 transition"
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
           >
             <Image
               src="/peerlist.ico"
@@ -219,7 +219,7 @@ export default function Intro() {
             href="https://medium.com/@nagwanirishab"
             rel="noopener noreferrer"
             target="_blank"
-            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-hidden active:scale-90 transition"
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none active:scale-90 transition"
           >
             <Image
               src="/medium.webp"

@@ -79,7 +79,7 @@ export default function Certificate() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-auto weight border border-black/10 cursor-pointer bg-blue-700/[0.95] px-7
-                  py-3 flex items-center gap-4 justify-center rounded-full outline-hidden active:scale-90
+                  py-3 flex items-center gap-4 justify-center rounded-full outline-none active:scale-90
                   transition text-white w-fit"
                 >
                   <span className="sm:block">View Certificate</span>

@@ -1,121 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&family=Space+Grotesk:wght@300..700&display=swap')
-layer(base);
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&family=Space+Grotesk:wght@300..700&display=swap");
 
-@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@plugin 'tailwindcss-animate';
+* {
+  scroll-behavior: smooth;
+}
 
-@custom-variant dark (&:is(.dark *));
-
-@theme {
-  --color-background: hsl(var(--background));
-  --color-foreground: hsl(var(--foreground));
-
-  --color-card: hsl(var(--card));
-  --color-card-foreground: hsl(var(--card-foreground));
-
-  --color-popover: hsl(var(--popover));
-  --color-popover-foreground: hsl(var(--popover-foreground));
-
-  --color-primary: hsl(var(--primary));
-  --color-primary-foreground: hsl(var(--primary-foreground));
-
-  --color-secondary: hsl(var(--secondary));
-  --color-secondary-foreground: hsl(var(--secondary-foreground));
-
-  --color-muted: hsl(var(--muted));
-  --color-muted-foreground: hsl(var(--muted-foreground));
-
-  --color-accent: hsl(var(--accent));
-  --color-accent-foreground: hsl(var(--accent-foreground));
-
-  --color-destructive: hsl(var(--destructive));
-  --color-destructive-foreground: hsl(var(--destructive-foreground));
-
-  --color-border: hsl(var(--border));
-  --color-input: hsl(var(--input));
-  --color-ring: hsl(var(--ring));
-
-  --color-chart-1: hsl(var(--chart-1));
-  --color-chart-2: hsl(var(--chart-2));
-  --color-chart-3: hsl(var(--chart-3));
-  --color-chart-4: hsl(var(--chart-4));
-  --color-chart-5: hsl(var(--chart-5));
-
-  --radius-lg: var(--radius);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-sm: calc(var(--radius) - 4px);
-
-  --animate-border-beam: border-beam calc(var(--duration) * 1s) infinite linear;
-  --animate-meteor: meteor 5s linear infinite;
-  --animate-shiny-text: shiny-text 8s infinite;
-
-  @keyframes border-beam {
-    100% {
-      offset-distance: 100%;
-    }
+@keyframes carousel {
+  0% {
+    transform: translateX(0);
   }
-  @keyframes meteor {
-    0% {
-      transform: rotate(215deg) translateX(0);
-      opacity: 1;
-    }
-    70% {
-      opacity: 1;
-    }
-    100% {
-      transform: rotate(215deg) translateX(-500px);
-      opacity: 0;
-    }
-  }
-  @keyframes shiny-text {
-    0%,
-    90%,
-    100% {
-      background-position: calc(-100% - var(--shiny-width)) 0;
-    }
-    30%,
-    60% {
-      background-position: calc(100% + var(--shiny-width)) 0;
-    }
+  100% {
+    transform: translateX(-100%);
   }
 }
 
-/*
-  The default border color has changed to `currentColor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
-
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
-@layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentColor);
-  }
-}
-
-@layer utilities {
-  * {
-    scroll-behavior: smooth;
-  }
-
-  @keyframes carousel {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
-
-  .animate-carousel {
-    animation: carousel 20s linear infinite;
-  }
+.animate-carousel {
+  animation: carousel 20s linear infinite;
 }
 
 @layer base {
@@ -178,28 +81,26 @@ layer(base);
   }
 }
 
-@layer utilities {
-  .poppins {
-    font-family: 'Space Grotesk', serif;
-    font-optical-sizing: auto;
-  }
+.poppins {
+  font-family: "Space Grotesk", serif;
+  font-optical-sizing: auto;
+}
 
-  .weight {
-    font-family: 'Outfit', sans-serif;
-    font-optical-sizing: auto;
-  }
+.weight {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+}
 
-  .name {
-    font-family: 'Playwrite GB J', cursive;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
+.name {
+  font-family: "Playwrite GB J", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  html {
-    --line-color: #e5e7eb;
-    overflow-x: hidden;
-  }
+html {
+  --line-color: #e5e7eb;
+  overflow-x: hidden;
 }
 
 @layer base {
