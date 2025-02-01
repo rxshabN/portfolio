@@ -56,10 +56,10 @@ export default function Organization() {
               <h3 className="font-semibold capitalize text-2xl text-green-400 cursor-default weight">
                 {organization.title}
               </h3>
-              <p className="font-normal !mt-1 text-white cursor-default">
+              <p className="font-normal mt-1! text-white cursor-default">
                 {organization.location}
               </p>
-              <p className="!text-md !mt-4 !font-normal text-gray-200 cursor-default">
+              <p className="text-md! mt-4! font-normal! text-gray-200 cursor-default">
                 {organization.description}
               </p>
             </VerticalTimelineElement>
