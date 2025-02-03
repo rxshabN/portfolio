@@ -14,7 +14,7 @@
     "@react-email/tailwind": "^1.0.4",
     "@react-three/drei": "^9.121.4",
     "@sentry/nextjs": "^8.54.0",
-    "@tsparticles/engine": "^3.7.1",
+    "@tsparticles/engine": "^3.8.1",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.8.0",
     "@vercel/analytics": "^1.4.1",
