@@ -73,7 +73,7 @@ export const organizationData = [
     title: "Society for Industrial and Applied Mathematics",
     location: "VIT Vellore",
     description:
-      "I am a Core Member of SIAM-VIT Chapter. I am currently part of the technical team developing the official website.",
+      "I am a Core Member of SIAM-VIT Chapter. I have developed applications for our flagship Yantra technical competition with a concurrent user count of 100+. Currently part of the technical team developing the official website.",
     icon: React.createElement(BsBriefcase),
     date: "February 2024 - Present",
   },
