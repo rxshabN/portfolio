@@ -227,6 +227,8 @@ export const skillsData = [
   "Sentry",
   "Postman",
   "WebSockets",
+  "Docker",
+  "Redis"
   // "tRPC",
 ] as const;
 
