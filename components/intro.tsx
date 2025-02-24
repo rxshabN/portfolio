@@ -87,7 +87,7 @@ export default function Intro() {
           ></GradualSpacing>
           <div className="space-x-5 text-[2.05rem] text-center flex flex-row justify-center items-center">
             <GradualSpacing1
-              text="Full Stack Web App Developer &#9679; VIT Vellore"
+              text="Web App Developer &#9679; Technical Head | SIAM-VIT"
               className="text-green-400 weight font-bold"
             ></GradualSpacing1>
           </div>

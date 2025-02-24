@@ -73,7 +73,7 @@ export const organizationData = [
     title: "Society for Industrial and Applied Mathematics",
     location: "VIT Vellore",
     description:
-      "I am a Core Member of SIAM-VIT Chapter. I have developed applications for our flagship Yantra technical competition with a concurrent user count of 100+. Currently part of the technical team developing the official website.",
+      "I am the Technical Head of SIAM-VIT. I am in charge of overseeing all technical domains present in our chapter such as AI/ML, Web Dev, App Dev and more. I have developed applications for our flagship Yantra technical competition with a concurrent user count of 100+ and for our flagship Gravitas event MPL.",
     icon: React.createElement(BsBriefcase),
     date: "February 2024 - Present",
   },
@@ -228,7 +228,7 @@ export const skillsData = [
   "Postman",
   "WebSockets",
   "Docker",
-  "Redis"
+  "Redis",
   // "tRPC",
 ] as const;
 
