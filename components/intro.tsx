@@ -67,15 +67,13 @@ export default function Intro() {
             <span className="font-bold text-green-400 weight">
               real world web applications.
             </span>
-            <br />I am <span className="sm:inline hidden">currently</span> a
-            sophomore <span className="hidden sm:inline">pursuing B.Tech</span>{" "}
-            at <br className="visible sm:hidden" />{" "}
+            <br />I am the{" "}
             <span className="font-bold weight text-green-400">
-              Vellore Institute of Technology,
-            </span>{" "}
-            <br className="sm:hidden visible" />
-            Vellore, Tamil Nadu. <br /> My specialization is{" "}
-            <br className="sm:hidden visible" />{" "}
+              Technical Head{" "}
+            </span>
+            <span>of</span>{" "}
+            <span className="font-bold weight text-green-400">SIAM-VIT.</span>
+            <br /> My specialization is <br className="sm:hidden visible" />{" "}
             <span className="font-bold text-green-400 weight">MERN Stack</span>{" "}
             Development.
           </div>
