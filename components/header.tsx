@@ -5,15 +5,25 @@ import React from "react";
 import { links } from "@/lib/data";
 import clsx from "clsx";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { useRouter } from "next/navigation";
 
 export default function Header() {
+  const router = useRouter();
   const { activeSection, setActiveSection, setTimeOfLastClick } =
     useActiveSectionContext();
 
-  const handleScroll = (id: string) => {
-    const section = document.getElementById(id);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
+  // const handleScroll = (id: string) => {
+  //   const section = document.getElementById(id);
+  //   if (section) {
+  //     section.scrollIntoView({ behavior: "smooth" });
+  //   }
+  // };
+
+  const handleNav = (id: string) => {
+    if (id === "") {
+      router.push("/");
+    } else {
+      router.push(`${id}`);
     }
   };
 
@@ -38,7 +48,8 @@ export default function Header() {
             }}
           >
             <button
-              onClick={() => handleScroll("about")}
+              // onClick={() => handleScroll("about")}
+              onClick={() => handleNav("/")}
               className="cursor-pointer focus:outline-none weight"
             >
               Rishab Nagwani
@@ -63,7 +74,8 @@ export default function Header() {
                     }
                   )}
                   onClick={() => {
-                    handleScroll(link.hash.replace("#", ""));
+                    // handleScroll(link.hash.replace("#", ""));
+                    handleNav(link.hash.replace("#", "/"));
                     setActiveSection(link.name);
                     setTimeOfLastClick(Date.now());
                   }}
