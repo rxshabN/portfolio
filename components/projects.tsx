@@ -15,8 +15,8 @@ export default function Projects() {
         id="projects"
         ref={ref}
       >
-        {/* <div className="lg:block hidden bg-[#6f61f3]/[0.3] absolute -z-10 top-[220rem] left-[15rem] h-[37rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
-        <div className="lg:block hidden bg-[#0e1d2d]/[0.4] absolute -z-10 top-[200rem] -right-[20rem] h-[37rem] w-[40rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div> */}
+        <div className="lg:block hidden bg-[#6f61f3]/[0.3] absolute -z-10 top-[220rem] left-[15rem] h-[37rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
+        <div className="lg:block hidden bg-[#0e1d2d]/[0.4] absolute -z-10 top-[200rem] -right-[20rem] h-[37rem] w-[40rem] rounded-full blur-[10rem] sm:w-[68.75rem]"></div>
         <section className="mx-auto">
           <h2 className="weight cursor-default sm:text-7xl text-5xl font-medium capitalize mb-20 text-center">
             My Projects
